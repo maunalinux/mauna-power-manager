@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Icon=mauna-power-manager
+Name=Mauna Power Manager
+Exec=/usr/share/mauna/power-manager/client/main.py --autostart
+Comment=Mauna Power Manager Client

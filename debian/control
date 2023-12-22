@@ -1,0 +1,22 @@
+Source: mauna-power-manager
+Section: utils
+Priority: optional
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: meson, ninja-build
+Standards-Version: 4.3.0
+Homepage: https://github.com/maunalinux/mauna-power-manager
+
+Package: mauna-power-manager
+Architecture: all
+Depends: ${misc:Depends},
+         libc6,
+         python3 (>=3.5),
+         python3-gi,
+         gir1.2-notify-0.7,
+         gir1.2-ayatanaappindicator3-0.1,
+         gir1.2-gtk-3.0
+Breaks: tlp, power-profiles-daemon, redshift, redshift-gtk
+Conflicts: tlp, power-profiles-daemon, redshift, redshift-gtk
+Replaces: tlp, power-profiles-daemon, redshift, redshift-gtk
+Description: Mauna Power Manager.
+ Simple power manager tools written in python.

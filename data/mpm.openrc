@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+
+name="Mauna Power Manager"
+command="/usr/libexec/mauna-power-manager"
+pidfile="/run/mpm.pid"
+command_background=true
+depend() {
+	after coldplug udev-postmount
+	need localmount
+}
+
+stop() {
+   rm -f /run/mpm
+}

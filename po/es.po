@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-27 18:40-0300\n"
+"PO-Revision-Date: 2023-12-01 10:22-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: src/data/MainWindow.ui:61
+msgid "POWERSAVE"
+msgstr "AHORRO DE ENERGÍA"
+
+#: src/data/MainWindow.ui:104
+msgid "PERFORMANCE"
+msgstr "ACTUACIÓN"
+
+#: src/data/MainWindow.ui:148
+msgid "On Power:"
+msgstr "En Energía:"
+
+#: src/data/MainWindow.ui:187
+msgid "On Battery:"
+msgstr "En la batería:"
+
+#: src/data/MainWindow.ui:234
+msgid "Switch to Powersave :"
+msgstr "Cambiar a ahorro de energía:"
+
+#: src/data/MainWindow.ui:251
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:287
+msgid "Stop charging the battery at 80%"
+msgstr "Deja de cargar la batería al 80%."
+
+#: src/data/MainWindow.ui:311
+msgid "Screen Brightness:"
+msgstr "Brillo de la pantalla:"
+
+#: src/data/MainWindow.ui:377
+msgid "Mauna Linux | 2023"
+msgstr "Mauna Linux | 2023"
+
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
+#: src/client/MainWindow.py:85
+msgid "Mauna Power Manager"
+msgstr "Gerente de energía de Mauna"
+
+#: src/data/MainWindow.ui:429
+msgid "Power manager"
+msgstr "Administrador de energía"
+
+#: src/data/MainWindow.ui:431
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"Este programa no tiene ninguna garantía.\n"
+"Consulte la <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+"html\">Licencia pública general GNU, versión 3 o posterior</a> para "
+"obtener más detalles."
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "ahorro de energía"
+
+#: src/client/MainWindow.py:38
+msgid "performance"
+msgstr "actuación"
+
+#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
+#: src/client/MainWindow.py:267
+msgid "Show"
+msgstr "Mostrar"
+
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+msgid "Hide"
+msgstr "Ocultar"
+
+#: src/client/MainWindow.py:76
+msgid "Exit"
+msgstr "Salir"
+
+#: src/client/MainWindow.py:117
+msgid "Performance"
+msgstr "Actuación"
+
+#: src/client/MainWindow.py:118
+msgid "Powersave"
+msgstr "Ahorro de energía"
+
+#: src/client/MainWindow.py:119
+msgid "Do Noting"
+msgstr "Hacer nada"
+
+#: src/client/MainWindow.py:159
+msgid "Power profile changed: "
+msgstr "El perfil de energía cambió: "
+
+#: src/client/MainWindow.py:162
+msgid "Disable Powersave"
+msgstr "Desactivar ahorro de energía"
+
+#: src/client/MainWindow.py:165
+msgid "Enable Powersave"
+msgstr "Habilitar ahorro de energía"

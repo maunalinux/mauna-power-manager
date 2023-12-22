@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-27 18:40-0300\n"
+"PO-Revision-Date: 2023-12-20 21:48-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: src/data/MainWindow.ui:61
+msgid "POWERSAVE"
+msgstr "बिजली बचाओ"
+
+#: src/data/MainWindow.ui:104
+msgid "PERFORMANCE"
+msgstr "प्रदर्शन"
+
+#: src/data/MainWindow.ui:148
+msgid "On Power:"
+msgstr "शक्ति पर:"
+
+#: src/data/MainWindow.ui:187
+msgid "On Battery:"
+msgstr "बैटरी पर:"
+
+#: src/data/MainWindow.ui:234
+msgid "Switch to Powersave :"
+msgstr "पॉवरसेव पर स्विच करें:"
+
+#: src/data/MainWindow.ui:251
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:287
+msgid "Stop charging the battery at 80%"
+msgstr "बैटरी को 80% पर चार्ज करना बंद करें"
+
+#: src/data/MainWindow.ui:311
+msgid "Screen Brightness:"
+msgstr "स्क्रीन की तेजस्विता:"
+
+#: src/data/MainWindow.ui:377
+msgid "Mauna Linux | 2023"
+msgstr "मौना लिनक्स | 2023"
+
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
+#: src/client/MainWindow.py:85
+msgid "Mauna Power Manager"
+msgstr "मौना पावर मैनेजर"
+
+#: src/data/MainWindow.ui:429
+msgid "Power manager"
+msgstr "पावर मैनेजर"
+
+#: src/data/MainWindow.ui:431
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"यह प्रोग्राम बिल्कुल बिना किसी वारंटी के आता है।\n"
+"विवरण के लिए <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
+"जनरल पब्लिक लाइसेंस, संस्करण 3 या बाद का संस्करण</a> देखें।"
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "बिजली बचाओ"
+
+#: src/client/MainWindow.py:38
+msgid "performance"
+msgstr "प्रदर्शन"
+
+#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
+#: src/client/MainWindow.py:267
+msgid "Show"
+msgstr "दिखाओ"
+
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+msgid "Hide"
+msgstr "छिपाना"
+
+#: src/client/MainWindow.py:76
+msgid "Exit"
+msgstr "बाहर निकलना"
+
+#: src/client/MainWindow.py:117
+msgid "Performance"
+msgstr "प्रदर्शन"
+
+#: src/client/MainWindow.py:118
+msgid "Powersave"
+msgstr "बिजली बचाओ"
+
+#: src/client/MainWindow.py:119
+msgid "Do Noting"
+msgstr "कुछ भी नहीं है"
+
+#: src/client/MainWindow.py:159
+msgid "Power profile changed: "
+msgstr "पावर प्रोफाइल बदल गया: "
+
+#: src/client/MainWindow.py:162
+msgid "Disable Powersave"
+msgstr "पॉवरसेव अक्षम करें"
+
+#: src/client/MainWindow.py:165
+msgid "Enable Powersave"
+msgstr "पॉवरसेव सक्षम करें"

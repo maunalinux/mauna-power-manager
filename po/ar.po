@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-27 18:40-0300\n"
+"PO-Revision-Date: 2023-12-01 09:09-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: src/data/MainWindow.ui:61
+msgid "POWERSAVE"
+msgstr "توفير الطاقة"
+
+#: src/data/MainWindow.ui:104
+msgid "PERFORMANCE"
+msgstr "أداء"
+
+#: src/data/MainWindow.ui:148
+msgid "On Power:"
+msgstr "على السلطة:"
+
+#: src/data/MainWindow.ui:187
+msgid "On Battery:"
+msgstr "على البطارية:"
+
+#: src/data/MainWindow.ui:234
+msgid "Switch to Powersave :"
+msgstr "التبديل إلى توفير الطاقة :"
+
+#: src/data/MainWindow.ui:251
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:287
+msgid "Stop charging the battery at 80%"
+msgstr "إيقاف شحن البطارية بنسبة 80%"
+
+#: src/data/MainWindow.ui:311
+msgid "Screen Brightness:"
+msgstr "سطوع الشاشة:"
+
+#: src/data/MainWindow.ui:377
+msgid "Mauna Linux | 2023"
+msgstr "ماونا لينكس | 2023"
+
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
+#: src/client/MainWindow.py:85
+msgid "Mauna Power Manager"
+msgstr "ماونا مدير الطاقة"
+
+#: src/data/MainWindow.ui:429
+msgid "Power manager"
+msgstr "مدير الطاقة"
+
+#: src/data/MainWindow.ui:431
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"ويأتي هذا البرنامج مع أي ضمان على الاطلاق.\n"
+"راجع <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">رخصة GNU "
+"العامة، الإصدار 3 أو الأحدث</a> للحصول على التفاصيل."
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "توفير الطاقة"
+
+#: src/client/MainWindow.py:38
+msgid "performance"
+msgstr "أداء"
+
+#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
+#: src/client/MainWindow.py:267
+msgid "Show"
+msgstr "يعرض"
+
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+msgid "Hide"
+msgstr "يخفي"
+
+#: src/client/MainWindow.py:76
+msgid "Exit"
+msgstr "مخرج"
+
+#: src/client/MainWindow.py:117
+msgid "Performance"
+msgstr "أداء"
+
+#: src/client/MainWindow.py:118
+msgid "Powersave"
+msgstr "توفير الطاقة"
+
+#: src/client/MainWindow.py:119
+msgid "Do Noting"
+msgstr "لا تفعل شيئا"
+
+#: src/client/MainWindow.py:159
+msgid "Power profile changed: "
+msgstr "تم تغيير ملف تعريف الطاقة:"
+
+#: src/client/MainWindow.py:162
+msgid "Disable Powersave"
+msgstr "تعطيل توفير الطاقة"
+
+#: src/client/MainWindow.py:165
+msgid "Enable Powersave"
+msgstr "تمكين توفير الطاقة"

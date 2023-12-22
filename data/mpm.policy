@@ -1,0 +1,29 @@
+<policyconfig>
+<vendor>Mauna Developers</vendor>
+<vendor_url>https://maunalinux.top</vendor_url>
+<action id="top.mauna.pkexec.mauna-power-manager">
+<description>Mauna Power Manager</description>
+<message>Authentication is required for power manager</message>
+<message xml:lang="af">Stawing word vereis vir kragbestuurder</message>
+<message xml:lang="ar">المصادقة مطلوبة لمدير الطاقة</message>
+<message xml:lang="ca">L'autenticació és necessària per al gestor d'energia</message>
+<message xml:lang="de">Für den Power Manager ist eine Authentifizierung erforderlich</message>
+<message xml:lang="es">Se requiere autenticación para el administrador de energía</message>
+<message xml:lang="fr">L'authentification est requise pour le gestionnaire d'alimentation</message>
+<message xml:lang="he">נדרש אימות עבור מנהל צריכת החשמל</message>
+<message xml:lang="hi">पावर मैनेजर के लिए प्रमाणीकरण आवश्यक है</message>
+<message xml:lang="id">Otentikasi diperlukan untuk manajer daya</message>
+<message xml:lang="pl">Menedżer zasilania wymaga uwierzytelnienia</message>
+<message xml:lang="pt">A autenticação é necessária para o gestor de energia</message>
+<message xml:lang="pt_BR">A autenticação é necessária para o gerenciador de energia</message>
+<message xml:lang="tr">Güç yöneticisi için yetkilendirme gerekiyor</message>
+<icon_name>preferences-system</icon_name>
+<defaults>
+<allow_any>yes</allow_any>
+<allow_inactive>yes</allow_inactive>
+<allow_active>yes</allow_active>
+</defaults>
+<annotate key="org.freedesktop.policykit.exec.path">/usr/share/mauna/power-manager/client/actions.py</annotate>
+<annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+</action>
+</policyconfig>

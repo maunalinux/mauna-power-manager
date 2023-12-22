@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Mauna Power Manager
+Name[pt]=Gestor de Energia Mauna
+Name[pt_BR]=Gerenciador de Energia Mauna
+Name[tr]=Mauna Güç Yöneticisi
+Comment=Power management tools for Mauna
+Comment[pt]=Ferramenta de gestão de energia para o Mauna
+Comment[pt_BR]=Ferramentas de gerenciamento de energia para o Mauna
+Comment[tr]=Mauna için güç yönetim aracı
+Exec=/usr/share/mauna/power-manager/client/main.py
+Icon=mauna-power-manager
+Terminal=False
+Type=Application
+Categories=Application;System;

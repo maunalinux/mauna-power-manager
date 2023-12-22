@@ -1,0 +1,12 @@
+#!/bin/bash
+if [[ -f /etc/tlp.d/99-mauna.conf ]] ; then
+    # remove old version of mpm
+    rm -rf /etc/xdg/autostart/mpm-autostart.desktop || true
+    rm -rf /lib/udev/rules.d/99-mpm.rules || true
+    rm -rf /etc/mauna/mpm.conf || true
+    rm -f /etc/tlp.d/99-mauna.conf || true
+    rm -f /etc/tlp.d/99-charge.conf || true
+    rm -f /etc/xdg/autostart/mauna-power-manager.desktop || true
+    systemctl disable tlp || true
+    systemctl stop tlp || true
+fi

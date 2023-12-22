@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.mo
+data/MainWindow.ui~
+debian/mauna-power-manager/
+debian/debhelper-build-stamp
+debian/files
+debian/mauna-power-manager.debhelper.log
+debian/mauna-power-manager.substvars
+debian/*.debhelper
+obj-x86_64-linux-gnu/

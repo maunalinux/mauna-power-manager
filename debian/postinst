@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ ! -f /etc/mauna/mpm.conf ] ; then
+    mkdir -p /etc/mauna/mpm.conf.d/
+    cp /usr/share/mauna/power-manager/data/config.ini /etc/mauna/mpm.conf
+fi
+if which systemctl > /dev/null ; then
+    systemctl enable mpm || true
+    systemctl start mpm || true
+fi

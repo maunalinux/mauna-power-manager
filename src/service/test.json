@@ -1,0 +1,7 @@
+{
+    "CLIENT": "client",
+    "ENV": {
+        "PATH": "/bin:/usr/bin",
+        "USER": "pingu"
+    }
+}

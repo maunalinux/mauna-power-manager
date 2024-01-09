@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-27 18:40-0300\n"
+"PO-Revision-Date: 2023-12-27 23:17-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: src/data/MainWindow.ui:61
+msgid "POWERSAVE"
+msgstr "ENERGISPAR"
+
+#: src/data/MainWindow.ui:104
+msgid "PERFORMANCE"
+msgstr "PRESTANDA"
+
+#: src/data/MainWindow.ui:148
+msgid "On Power:"
+msgstr "På ström:"
+
+#: src/data/MainWindow.ui:187
+msgid "On Battery:"
+msgstr "På batteri:"
+
+#: src/data/MainWindow.ui:234
+msgid "Switch to Powersave :"
+msgstr "Byt till energisparläge:"
+
+#: src/data/MainWindow.ui:251
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:287
+msgid "Stop charging the battery at 80%"
+msgstr "Sluta ladda batteriet vid 80 %"
+
+#: src/data/MainWindow.ui:311
+msgid "Screen Brightness:"
+msgstr "Skärmens ljusstyrka:"
+
+#: src/data/MainWindow.ui:377
+msgid "Mauna Linux | 2023"
+msgstr "Mauna Linux | 2023"
+
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
+#: src/client/MainWindow.py:85
+msgid "Mauna Power Manager"
+msgstr "Mauna Strömförvaltare"
+
+#: src/data/MainWindow.ui:429
+msgid "Power manager"
+msgstr "Strömförvaltare"
+
+#: src/data/MainWindow.ui:431
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"Detta program kommer med absolut ingen garanti.\n"
+"Se <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 eller senare</a> för mer information."
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "energispar"
+
+#: src/client/MainWindow.py:38
+msgid "performance"
+msgstr "prestanda"
+
+#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
+#: src/client/MainWindow.py:267
+msgid "Show"
+msgstr "Show"
+
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+msgid "Hide"
+msgstr "Dölj"
+
+#: src/client/MainWindow.py:76
+msgid "Exit"
+msgstr "Utgång"
+
+#: src/client/MainWindow.py:117
+msgid "Performance"
+msgstr "Prestanda"
+
+#: src/client/MainWindow.py:118
+msgid "Powersave"
+msgstr "Energispar"
+
+#: src/client/MainWindow.py:119
+msgid "Do Noting"
+msgstr "Göra ingenting"
+
+#: src/client/MainWindow.py:159
+msgid "Power profile changed: "
+msgstr "Effektprofil ändrad: "
+
+#: src/client/MainWindow.py:162
+msgid "Disable Powersave"
+msgstr "Inaktivera Energisparläge"
+
+#: src/client/MainWindow.py:165
+msgid "Enable Powersave"
+msgstr "Aktivera Energisparläge"

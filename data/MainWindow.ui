@@ -374,7 +374,7 @@
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="margin-top">5</property>
-                <property name="label" translatable="yes">Mauna Linux | 2023</property>
+                <property name="label" translatable="yes">MAUNA LINUX | 2024</property>
                 <attributes>
                   <attribute name="weight" value="light"/>
                 </attributes>
@@ -425,12 +425,12 @@
     <property name="type-hint">dialog</property>
     <property name="program-name">Mauna Power Manager</property>
     <property name="version">1.0.0</property>
-    <property name="copyright">© 2023 Mauna Linux</property>
+    <property name="copyright">© 2024 Mauna Linux</property>
     <property name="comments" translatable="yes">Power manager</property>
     <property name="website">https://github.com/maunalinux/mauna-power-manager</property>
     <property name="license" translatable="yes">This program comes with absolutely no warranty.
 See the &lt;a href="https://www.gnu.org/licenses/gpl-3.0.html"&gt;GNU General Public License, version 3 or later&lt;/a&gt; for details.</property>
-    <property name="authors">Mauna Linux</property>
+    <property name="authors">Ali Rıza Keskin</property>
     <property name="translator-credits">Mauna Linux</property>
     <property name="logo-icon-name">mauna-power-manager</property>
     <property name="wrap-license">True</property>

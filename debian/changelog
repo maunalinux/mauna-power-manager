@@ -1,3 +1,11 @@
+mauna-power-manager (1.0.1) mauna; urgency=medium
+
+  * New upstream release
+  * l10n: Add swedish translation
+  * Update copyright
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 11 Jan 2024 21:45:47 -0300
+
 mauna-power-manager (1.0.0) mauna; urgency=medium
 
   * Initial release

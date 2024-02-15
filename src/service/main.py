@@ -2,6 +2,7 @@
 from util import *
 from service import main
 from backends.power import set_mode
+from backends.wakeup import enable_usb_wakeups
 import time
 import os
 import json
@@ -17,7 +18,9 @@ singleinstance()
 if os.path.exists("/run/mpm"):
     os.unlink("/run/mpm")
 
-
+if get("usb-wakeups",False, "service"):
+    enable_usb_wakeups()
+    
 log_begin()
 log("Starting Mauna Power Manager Service")
 

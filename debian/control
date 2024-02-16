@@ -15,8 +15,8 @@ Depends: ${misc:Depends},
          gir1.2-notify-0.7,
          gir1.2-ayatanaappindicator3-0.1,
          gir1.2-gtk-3.0
-Breaks: tlp, power-profiles-daemon, redshift, redshift-gtk
-Conflicts: tlp, power-profiles-daemon, redshift, redshift-gtk
-Replaces: tlp, power-profiles-daemon, redshift, redshift-gtk
+Breaks: tlp, power-profiles-daemon
+Conflicts: tlp, power-profiles-daemon
+Replaces: tlp, power-profiles-daemon
 Description: Mauna Power Manager.
  Simple power manager tools written in python.

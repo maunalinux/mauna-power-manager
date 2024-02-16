@@ -1,3 +1,14 @@
+mauna-power-manager (1.0.2) mauna; urgency=medium
+
+  * New upstream release
+  * about dialog fix
+  * fix client show issue
+  * Create LICENSE
+  * usb acpi wakeup fix config added
+  * l10n: update translations
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 15 Feb 2024 21:33:00 -0300
+
 mauna-power-manager (1.0.1) mauna; urgency=medium
 
   * New upstream release

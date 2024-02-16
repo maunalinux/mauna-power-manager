@@ -83,6 +83,13 @@ class MainWindow:
 
         # about dialog
         self.o("ui_about_dialog").set_program_name(_("Mauna Power Manager"))
+        if self.o("ui_about_dialog").get_titlebar() is None:
+            about_headerbar = Gtk.HeaderBar.new()
+            about_headerbar.set_show_close_button(True)
+            about_headerbar.set_title(_("About Mauna Power Manager"))
+            about_headerbar.pack_start(Gtk.Image.new_from_icon_name("mauna-power-manager", Gtk.IconSize.LARGE_TOOLBAR))
+            about_headerbar.show_all()
+            self.o("ui_about_dialog").set_titlebar(about_headerbar)        
 
         # settings page
         self.window.set_icon_name("mauna-power-manager")

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 18:40-0300\n"
-"PO-Revision-Date: 2023-12-01 09:56-0300\n"
+"POT-Creation-Date: 2024-01-21 20:30-0300\n"
+"PO-Revision-Date: 2024-01-21 20:34-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: src/data/MainWindow.ui:61
 msgid "POWERSAVE"
@@ -50,8 +50,8 @@ msgid "Screen Brightness:"
 msgstr "Brillantor de la pantalla:"
 
 #: src/data/MainWindow.ui:377
-msgid "Mauna Linux | 2023"
-msgstr "Mauna Linux | 2023"
+msgid "Mauna Linux | 2024"
+msgstr "Mauna Linux | 2024"
 
 #: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
 #: src/client/MainWindow.py:85
@@ -69,9 +69,8 @@ msgid ""
 "Public License, version 3 or later</a> for details."
 msgstr ""
 "Aquest programa no inclou absolutament cap garantia.\n"
-"Consulteu la <a href=\"https://www.gnu.org/licenses/gpl-3.0."
-"html\">Llicència pública general GNU, versió 3 o posterior</a> per "
-"obtenir més informació."
+"Consulteu la <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">Llicència "
+"pública general GNU, versió 3 o posterior</a> per obtenir més informació."
 
 #: src/client/MainWindow.py:37
 msgid "powersave"

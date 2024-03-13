@@ -91,7 +91,7 @@ def _powersave():
             if dir.startswith("host"):
                 writefile("{}/{}/link_power_management_policy".format(scsi_host_path,dir),"min_power")
 
-                
+
     if get("usb-suspend",True,"power"):
         # usb auto suspend
         usb_path="/sys/bus/usb/devices/"
@@ -168,7 +168,7 @@ def _performance():
 
     # NMI watchdog
     writefile("/proc/sys/kernel/nmi_watchdog",0)
-    
+
     # platform profile
     writefile("/sys/firmware/acpi/platform_profile","power")
 

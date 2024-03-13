@@ -1,3 +1,18 @@
+mauna-power-manager (1.0.3) mauna; urgency=medium
+
+  * New upstream release
+  * usb wakeup acpi warning issue
+  * translation update
+  * oem and acpi warning added
+  * cli info features
+  * acpi support check
+  * usage update fix
+  * fix batterry usage calculator issue
+  * usage
+  * powersave improvements
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 13 Mar 2024 18:29:06 -0300
+
 mauna-power-manager (1.0.2) mauna; urgency=medium
 
   * New upstream release

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-21 20:30-0300\n"
-"PO-Revision-Date: 2024-01-21 20:33-0300\n"
+"POT-Creation-Date: 2024-02-22 14:38+0300\n"
+"PO-Revision-Date: 2024-03-12 22:01-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -49,20 +49,28 @@ msgstr "Спрете зареждането на батерията на 80%"
 msgid "Screen Brightness:"
 msgstr "Яркост на екрана:"
 
-#: src/data/MainWindow.ui:377
-msgid "Mauna Linux | 2024"
-msgstr "Мауна Linux | 2024 г"
-
 #: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
 #: src/client/MainWindow.py:85
 msgid "Mauna Power Manager"
 msgstr "Мауна Диспечер на захранването"
 
-#: src/data/MainWindow.ui:429
+#: src/data/MainWindow.ui:473
+msgid "Your device does not have a linux acpi table ."
+msgstr "Вашето устройство няма Linux acpi таблица."
+
+#: src/data/MainWindow.ui:510
+msgid "Windows OEM detected."
+msgstr "Открит Windows OEM."
+
+#: src/data/MainWindow.ui:547
+msgid "Power management may not works good."
+msgstr "Управлението на захранването може да не работи добре."
+
+#: src/data/MainWindow.ui:573
 msgid "Power manager"
 msgstr "Диспечер на захранването"
 
-#: src/data/MainWindow.ui:431
+#: src/data/MainWindow.ui:575
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -80,12 +88,12 @@ msgstr "спестяване на енергия"
 msgid "performance"
 msgstr "производителност"
 
-#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
-#: src/client/MainWindow.py:267
+#: src/client/MainWindow.py:66 src/client/MainWindow.py:276
+#: src/client/MainWindow.py:286
 msgid "Show"
 msgstr "Покажи"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:282
 msgid "Hide"
 msgstr "Крия"
 
@@ -93,26 +101,33 @@ msgstr "Крия"
 msgid "Exit"
 msgstr "Изход"
 
-#: src/client/MainWindow.py:117
+#: src/client/MainWindow.py:89
+msgid "About Mauna Power Manager"
+msgstr "Относно Мауна Диспечер на захранването"
+
+#: src/client/MainWindow.py:127
 msgid "Performance"
 msgstr "производителност"
 
-#: src/client/MainWindow.py:118
+#: src/client/MainWindow.py:128
 msgid "Powersave"
 msgstr "Спестяване на енергия"
 
-#: src/client/MainWindow.py:119
+#: src/client/MainWindow.py:129
 msgid "Do Noting"
 msgstr "Не правете нищо"
 
-#: src/client/MainWindow.py:159
+#: src/client/MainWindow.py:169
 msgid "Power profile changed: "
 msgstr "Променен профил на захранване: "
 
-#: src/client/MainWindow.py:162
+#: src/client/MainWindow.py:172
 msgid "Disable Powersave"
 msgstr "Деактивирайте пестенето на енергия"
 
-#: src/client/MainWindow.py:165
+#: src/client/MainWindow.py:175
 msgid "Enable Powersave"
 msgstr "Активирайте Пестене на енергия"
+
+#~ msgid "Mauna Linux | 2024"
+#~ msgstr "Мауна Linux | 2024 г"

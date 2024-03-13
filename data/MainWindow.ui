@@ -568,7 +568,7 @@
     <property name="icon-name">mauna-power-manager</property>
     <property name="type-hint">dialog</property>
     <property name="program-name">Mauna Power Manager</property>
-    <property name="version">1.0.2</property>
+    <property name="version">1.0.3</property>
     <property name="copyright">© 2024 Mauna Linux</property>
     <property name="comments" translatable="yes">Power manager</property>
     <property name="website">https://github.com/maunalinux/mauna-power-manager</property>

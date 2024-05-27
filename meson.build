@@ -31,6 +31,9 @@ endforeach
 install_data('data/mauna-power-manager.svg', install_dir: app_icon_dir)
 # install desktop files
 install_data('data/mpm-client.desktop', install_dir: application_dir, rename: 'top.mauna.power-manager.desktop')
+meson.add_install_script('sh', '-c',
+    'ln -s ../share/mauna/power-manager/client/main.py ' +
+    '${DESTDIR}/' + bin_dir + '/mauna-power-manager')
 install_data('data/mpm-autostart.desktop', install_dir: autostart_dir)
 # install policy file
 install_data('data/mpm.policy', install_dir: policy_dir)

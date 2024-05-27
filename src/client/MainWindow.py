@@ -52,6 +52,8 @@ class MainWindow:
             "mauna-power-manager", "mauna-pm-performance-symbolic", appindicator.IndicatorCategory.APPLICATION_STATUS)
         self.indicator.set_status(appindicator.IndicatorStatus.ACTIVE)
         self.indicator.set_icon("mauna-pm-powersave-symbolic")
+        self.set_wmclass("mauna-power-manager")
+            
 
         Notify.init("Mauna Power Manager")
 

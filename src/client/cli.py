@@ -37,7 +37,7 @@ elif sys.argv[1] == "set":
 elif sys.argv[1] == "get":
     mpm = "/run/user/{}/mpm".format(os.getuid())
     if not os.path.exists(mpm):
-        os.mkdir(mpm)
+        os.makedirs(mpm)
     mpm = mpm+"/"+str(os.getpid())
     if not os.path.exists(mpm):
         os.mkfifo(mpm)
@@ -55,6 +55,7 @@ elif sys.argv[1] == "get":
         print("[info]")
         print("acpi-supported={}".format(data["info"]["acpi-supported"]))
         print("laptop={}".format(data["info"]["laptop"]))
+        print("type={}".format(data["info"]["type"]))        
         print("virtual-machine={}".format(data["info"]["virtual-machine"]))
         print("live={}".format(data["info"]["live"]))
         print("oem={}".format(data["info"]["oem"]))        

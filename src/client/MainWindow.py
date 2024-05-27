@@ -204,7 +204,9 @@ class MainWindow:
             self.o("ui_button_warning").set_visible(oem or acpi or vm or pm)
             self.o("ui_box_warning_acpi").set_visible(acpi)
             self.o("ui_box_warning_oem").set_visible(oem)
-            self.o("ui_box_warning_bad").set_visible(not pm)            
+            self.o("ui_box_warning_bad").set_visible(not pm) 
+        else:
+            self.o("ui_button_warning").set_visible(False)                       
 
         self.update_lock = False
 

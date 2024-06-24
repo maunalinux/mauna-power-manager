@@ -214,9 +214,9 @@ class MainWindow:
                 if int(health) < 31:
                     self.o("ui_box_warning_battery").set_visible(True)
                     self.o("ui_button_warning").set_visible(True)
-                    break            
+                    break      
         else:
-            self.o("ui_button_warning").set_visible(False)                       
+            self.o("ui_button_warning").set_visible(False)                 
 
 
         self.update_lock = False

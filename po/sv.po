@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 18:40-0300\n"
-"PO-Revision-Date: 2023-12-27 23:17-0300\n"
+"POT-Creation-Date: 2024-05-27 19:31-0300\n"
+"PO-Revision-Date: 2024-06-25 13:52-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: src/data/MainWindow.ui:61
 msgid "POWERSAVE"
@@ -49,28 +49,52 @@ msgstr "Sluta ladda batteriet vid 80 %"
 msgid "Screen Brightness:"
 msgstr "Skärmens ljusstyrka:"
 
-#: src/data/MainWindow.ui:377
-msgid "Mauna Linux | 2023"
-msgstr "Mauna Linux | 2023"
-
-#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
-#: src/client/MainWindow.py:85
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:84
+#: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
 msgstr "Mauna Strömförvaltare"
 
-#: src/data/MainWindow.ui:429
+#: src/data/MainWindow.ui:473
+msgid "Your device does not have a linux acpi table ."
+msgstr "Din enhet har ingen linux acpi-tabell."
+
+#: src/data/MainWindow.ui:510
+msgid "Your device does not require power management."
+msgstr "Din enhet kräver inte energihantering."
+
+#: src/data/MainWindow.ui:547
+msgid "Your battery is dead."
+msgstr "Ditt batteri är slut."
+
+#: src/data/MainWindow.ui:584
+msgid "Your device does not support S3 state sleep."
+msgstr "Din enhet stöder inte S3-läge."
+
+#: src/data/MainWindow.ui:621
+msgid "You are using virtual machine."
+msgstr "Du använder virtuell maskin."
+
+#: src/data/MainWindow.ui:658
+msgid "Windows OEM detected."
+msgstr "Windows OEM upptäckt."
+
+#: src/data/MainWindow.ui:695
+msgid "Power management may not works good."
+msgstr "Strömhantering kanske inte fungerar bra."
+
+#: src/data/MainWindow.ui:721
 msgid "Power manager"
 msgstr "Strömförvaltare"
 
-#: src/data/MainWindow.ui:431
+#: src/data/MainWindow.ui:723
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
 "Public License, version 3 or later</a> for details."
 msgstr ""
 "Detta program kommer med absolut ingen garanti.\n"
-"Se <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
-"Public License, version 3 eller senare</a> för mer information."
+"Se <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public "
+"License, version 3 eller senare</a> för mer information."
 
 #: src/client/MainWindow.py:37
 msgid "powersave"
@@ -80,39 +104,46 @@ msgstr "energispar"
 msgid "performance"
 msgstr "prestanda"
 
-#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
-#: src/client/MainWindow.py:267
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:294
+#: src/client/MainWindow.py:304
 msgid "Show"
 msgstr "Show"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:300
 msgid "Hide"
 msgstr "Dölj"
 
-#: src/client/MainWindow.py:76
+#: src/client/MainWindow.py:78
 msgid "Exit"
 msgstr "Utgång"
 
-#: src/client/MainWindow.py:117
+#: src/client/MainWindow.py:91
+msgid "About Mauna Power Manager"
+msgstr "Om Mauna Strömförvaltare"
+
+#: src/client/MainWindow.py:129
 msgid "Performance"
 msgstr "Prestanda"
 
-#: src/client/MainWindow.py:118
+#: src/client/MainWindow.py:130
 msgid "Powersave"
 msgstr "Energispar"
 
-#: src/client/MainWindow.py:119
+#: src/client/MainWindow.py:131
 msgid "Do Noting"
 msgstr "Göra ingenting"
 
-#: src/client/MainWindow.py:159
+#: src/client/MainWindow.py:171
 msgid "Power profile changed: "
 msgstr "Effektprofil ändrad: "
 
-#: src/client/MainWindow.py:162
+#: src/client/MainWindow.py:174
 msgid "Disable Powersave"
 msgstr "Inaktivera Energisparläge"
 
-#: src/client/MainWindow.py:165
+#: src/client/MainWindow.py:177
 msgid "Enable Powersave"
 msgstr "Aktivera Energisparläge"
+
+#~ msgid "Mauna Linux | 2023"
+#~ msgstr "Mauna Linux | 2023"

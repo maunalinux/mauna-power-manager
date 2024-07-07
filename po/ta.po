@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 18:40-0300\n"
-"PO-Revision-Date: 2023-12-11 15:48-0300\n"
+"POT-Creation-Date: 2024-05-27 19:31-0300\n"
+"PO-Revision-Date: 2024-06-25 13:54-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ta\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: src/data/MainWindow.ui:61
 msgid "POWERSAVE"
@@ -50,28 +50,52 @@ msgstr "பேட்டரியை 80% சார்ஜ் செய்வதை
 msgid "Screen Brightness:"
 msgstr "திரை பிரகாசம்:"
 
-#: src/data/MainWindow.ui:377
-msgid "Mauna Linux | 2023"
-msgstr "மௌனா லினக்ஸ் | 2023"
-
-#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
-#: src/client/MainWindow.py:85
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:84
+#: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
 msgstr "மௌனா பவர் மேனேஜர்"
 
-#: src/data/MainWindow.ui:429
+#: src/data/MainWindow.ui:473
+msgid "Your device does not have a linux acpi table ."
+msgstr "உங்கள் சாதனத்தில் linux acpi அட்டவணை இல்லை ."
+
+#: src/data/MainWindow.ui:510
+msgid "Your device does not require power management."
+msgstr "உங்கள் சாதனத்திற்கு ஆற்றல் மேலாண்மை தேவையில்லை."
+
+#: src/data/MainWindow.ui:547
+msgid "Your battery is dead."
+msgstr "உங்கள் பேட்டரி இறந்துவிட்டது."
+
+#: src/data/MainWindow.ui:584
+msgid "Your device does not support S3 state sleep."
+msgstr "உங்கள் சாதனம் S3 நிலை தூக்கத்தை ஆதரிக்காது."
+
+#: src/data/MainWindow.ui:621
+msgid "You are using virtual machine."
+msgstr "நீங்கள் மெய்நிகர் இயந்திரத்தைப் பயன்படுத்துகிறீர்கள்."
+
+#: src/data/MainWindow.ui:658
+msgid "Windows OEM detected."
+msgstr "Windows OEM கண்டறியப்பட்டது."
+
+#: src/data/MainWindow.ui:695
+msgid "Power management may not works good."
+msgstr "பவர் மேனேஜ்மென்ட் சரியாக வேலை செய்யாமல் போகலாம்."
+
+#: src/data/MainWindow.ui:721
 msgid "Power manager"
 msgstr "சக்தி மேலாளர்"
 
-#: src/data/MainWindow.ui:431
+#: src/data/MainWindow.ui:723
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
 "Public License, version 3 or later</a> for details."
 msgstr ""
 "இந்த திட்டம் எந்த உத்தரவாதமும் இல்லாமல் வருகிறது.\n"
-"விவரங்களுக்கு <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
-"பொது பொது உரிமம், பதிப்பு 3 அல்லது அதற்குப் பிறகு</a> பார்க்கவும்."
+"விவரங்களுக்கு <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU பொது "
+"பொது உரிமம், பதிப்பு 3 அல்லது அதற்குப் பிறகு</a> பார்க்கவும்."
 
 #: src/client/MainWindow.py:37
 msgid "powersave"
@@ -81,39 +105,46 @@ msgstr "சக்தி சேமிப்பு"
 msgid "performance"
 msgstr "செயல்திறன்"
 
-#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
-#: src/client/MainWindow.py:267
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:294
+#: src/client/MainWindow.py:304
 msgid "Show"
 msgstr "காட்டு"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:300
 msgid "Hide"
 msgstr "மறை"
 
-#: src/client/MainWindow.py:76
+#: src/client/MainWindow.py:78
 msgid "Exit"
 msgstr "வெளியேறு"
 
-#: src/client/MainWindow.py:117
+#: src/client/MainWindow.py:91
+msgid "About Mauna Power Manager"
+msgstr "மௌனா பவர் மேனேஜர் பற்றி"
+
+#: src/client/MainWindow.py:129
 msgid "Performance"
 msgstr "செயல்திறன்"
 
-#: src/client/MainWindow.py:118
+#: src/client/MainWindow.py:130
 msgid "Powersave"
 msgstr "பவர்சேவ்"
 
-#: src/client/MainWindow.py:119
+#: src/client/MainWindow.py:131
 msgid "Do Noting"
 msgstr "எதுவும் செய்யாதே"
 
-#: src/client/MainWindow.py:159
+#: src/client/MainWindow.py:171
 msgid "Power profile changed: "
 msgstr "பவர் சுயவிவரம் மாற்றப்பட்டது: "
 
-#: src/client/MainWindow.py:162
+#: src/client/MainWindow.py:174
 msgid "Disable Powersave"
 msgstr "பவர்சேவை முடக்கு"
 
-#: src/client/MainWindow.py:165
+#: src/client/MainWindow.py:177
 msgid "Enable Powersave"
 msgstr "பவர்சேவை இயக்கு"
+
+#~ msgid "Mauna Linux | 2023"
+#~ msgstr "மௌனா லினக்ஸ் | 2023"

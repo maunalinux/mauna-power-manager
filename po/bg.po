@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-22 14:38+0300\n"
-"PO-Revision-Date: 2024-03-12 22:01-0300\n"
+"POT-Creation-Date: 2024-05-27 19:31-0300\n"
+"PO-Revision-Date: 2024-06-24 19:17-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: src/data/MainWindow.ui:61
 msgid "POWERSAVE"
@@ -49,8 +49,8 @@ msgstr "Спрете зареждането на батерията на 80%"
 msgid "Screen Brightness:"
 msgstr "Яркост на екрана:"
 
-#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
-#: src/client/MainWindow.py:85
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:84
+#: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
 msgstr "Мауна Диспечер на захранването"
 
@@ -59,18 +59,34 @@ msgid "Your device does not have a linux acpi table ."
 msgstr "Вашето устройство няма Linux acpi таблица."
 
 #: src/data/MainWindow.ui:510
+msgid "Your device does not require power management."
+msgstr "Вашето устройство не изисква управление на захранването."
+
+#: src/data/MainWindow.ui:547
+msgid "Your battery is dead."
+msgstr "Батерията ви е изтощена."
+
+#: src/data/MainWindow.ui:584
+msgid "Your device does not support S3 state sleep."
+msgstr "Вашето устройство не поддържа S3 състояние на заспиване."
+
+#: src/data/MainWindow.ui:621
+msgid "You are using virtual machine."
+msgstr "Вие използвате виртуална машина."
+
+#: src/data/MainWindow.ui:658
 msgid "Windows OEM detected."
 msgstr "Открит Windows OEM."
 
-#: src/data/MainWindow.ui:547
+#: src/data/MainWindow.ui:695
 msgid "Power management may not works good."
 msgstr "Управлението на захранването може да не работи добре."
 
-#: src/data/MainWindow.ui:573
+#: src/data/MainWindow.ui:721
 msgid "Power manager"
 msgstr "Диспечер на захранването"
 
-#: src/data/MainWindow.ui:575
+#: src/data/MainWindow.ui:723
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -88,44 +104,44 @@ msgstr "спестяване на енергия"
 msgid "performance"
 msgstr "производителност"
 
-#: src/client/MainWindow.py:66 src/client/MainWindow.py:276
-#: src/client/MainWindow.py:286
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:294
+#: src/client/MainWindow.py:304
 msgid "Show"
 msgstr "Покажи"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:282
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:300
 msgid "Hide"
 msgstr "Крия"
 
-#: src/client/MainWindow.py:76
+#: src/client/MainWindow.py:78
 msgid "Exit"
 msgstr "Изход"
 
-#: src/client/MainWindow.py:89
+#: src/client/MainWindow.py:91
 msgid "About Mauna Power Manager"
 msgstr "Относно Мауна Диспечер на захранването"
 
-#: src/client/MainWindow.py:127
+#: src/client/MainWindow.py:129
 msgid "Performance"
 msgstr "производителност"
 
-#: src/client/MainWindow.py:128
+#: src/client/MainWindow.py:130
 msgid "Powersave"
 msgstr "Спестяване на енергия"
 
-#: src/client/MainWindow.py:129
+#: src/client/MainWindow.py:131
 msgid "Do Noting"
 msgstr "Не правете нищо"
 
-#: src/client/MainWindow.py:169
+#: src/client/MainWindow.py:171
 msgid "Power profile changed: "
 msgstr "Променен профил на захранване: "
 
-#: src/client/MainWindow.py:172
+#: src/client/MainWindow.py:174
 msgid "Disable Powersave"
 msgstr "Деактивирайте пестенето на енергия"
 
-#: src/client/MainWindow.py:175
+#: src/client/MainWindow.py:177
 msgid "Enable Powersave"
 msgstr "Активирайте Пестене на енергия"
 

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 18:40-0300\n"
-"PO-Revision-Date: 2023-12-20 22:33-0300\n"
+"POT-Creation-Date: 2024-05-27 19:31-0300\n"
+"PO-Revision-Date: 2024-06-24 19:35-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: src/data/MainWindow.ui:61
 msgid "POWERSAVE"
@@ -49,20 +49,44 @@ msgstr "バッテリーの充電を 80% で停止する"
 msgid "Screen Brightness:"
 msgstr "画面の明るさ:"
 
-#: src/data/MainWindow.ui:377
-msgid "Mauna Linux | 2023"
-msgstr "マウナ・リナックス | 2023年"
-
-#: src/data/MainWindow.ui:402 src/client/MainWindow.py:82
-#: src/client/MainWindow.py:85
+#: src/data/MainWindow.ui:402 src/client/MainWindow.py:84
+#: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
 msgstr "マウナパワーマネージャー"
 
-#: src/data/MainWindow.ui:429
+#: src/data/MainWindow.ui:473
+msgid "Your device does not have a linux acpi table ."
+msgstr "デバイスには Linux acpi テーブルがありません。"
+
+#: src/data/MainWindow.ui:510
+msgid "Your device does not require power management."
+msgstr "デバイスには電源管理は必要ありません。"
+
+#: src/data/MainWindow.ui:547
+msgid "Your battery is dead."
+msgstr "バッテリーが切れました。"
+
+#: src/data/MainWindow.ui:584
+msgid "Your device does not support S3 state sleep."
+msgstr "お使いのデバイスは S3 状態のスリープをサポートしていません。"
+
+#: src/data/MainWindow.ui:621
+msgid "You are using virtual machine."
+msgstr "仮想マシンを使用しています。"
+
+#: src/data/MainWindow.ui:658
+msgid "Windows OEM detected."
+msgstr "Windows OEMが検出されました。"
+
+#: src/data/MainWindow.ui:695
+msgid "Power management may not works good."
+msgstr "電源管理がうまく機能しない可能性があります。"
+
+#: src/data/MainWindow.ui:721
 msgid "Power manager"
 msgstr "パワーマネージャー"
 
-#: src/data/MainWindow.ui:431
+#: src/data/MainWindow.ui:723
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -80,39 +104,46 @@ msgstr "省電力"
 msgid "performance"
 msgstr "パフォーマンス"
 
-#: src/client/MainWindow.py:66 src/client/MainWindow.py:257
-#: src/client/MainWindow.py:267
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:294
+#: src/client/MainWindow.py:304
 msgid "Show"
 msgstr "見せる"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:263
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:300
 msgid "Hide"
 msgstr "隠れる"
 
-#: src/client/MainWindow.py:76
+#: src/client/MainWindow.py:78
 msgid "Exit"
 msgstr "出口"
 
-#: src/client/MainWindow.py:117
+#: src/client/MainWindow.py:91
+msgid "About Mauna Power Manager"
+msgstr "マウナパワーマネージャーについて"
+
+#: src/client/MainWindow.py:129
 msgid "Performance"
 msgstr "パフォーマンス"
 
-#: src/client/MainWindow.py:118
+#: src/client/MainWindow.py:130
 msgid "Powersave"
 msgstr "省電力"
 
-#: src/client/MainWindow.py:119
+#: src/client/MainWindow.py:131
 msgid "Do Noting"
 msgstr "何もしない"
 
-#: src/client/MainWindow.py:159
+#: src/client/MainWindow.py:171
 msgid "Power profile changed: "
 msgstr "電力プロファイルが変更されました: "
 
-#: src/client/MainWindow.py:162
+#: src/client/MainWindow.py:174
 msgid "Disable Powersave"
 msgstr "省電力を無効にする"
 
-#: src/client/MainWindow.py:165
+#: src/client/MainWindow.py:177
 msgid "Enable Powersave"
 msgstr "省電力を有効にする"
+
+#~ msgid "Mauna Linux | 2023"
+#~ msgstr "マウナ・リナックス | 2023年"

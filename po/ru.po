@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-21 16:10-0300\n"
-"PO-Revision-Date: 2024-07-21 16:42-0300\n"
+"PO-Revision-Date: 2024-07-21 16:39-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: zh_CN\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,23 +20,23 @@ msgstr ""
 
 #: src/data/MainWindow.ui:62
 msgid "POWERSAVE"
-msgstr "节能"
+msgstr "ЭНЕРГОСБЕРЕЖЕНИЕ"
 
 #: src/data/MainWindow.ui:105
 msgid "PERFORMANCE"
-msgstr "表现"
+msgstr "ПРОИЗВОДИТЕЛЬНОСТЬ"
 
 #: src/data/MainWindow.ui:149
 msgid "On Power:"
-msgstr "接通电源："
+msgstr "По мощности:"
 
 #: src/data/MainWindow.ui:188
 msgid "On Battery:"
-msgstr "电池："
+msgstr "От батареи:"
 
 #: src/data/MainWindow.ui:235
 msgid "Switch to Powersave :"
-msgstr "切换到省电模式："
+msgstr "Переключитесь на энергосбережение:"
 
 #: src/data/MainWindow.ui:252
 msgid "%"
@@ -43,52 +44,52 @@ msgstr "%"
 
 #: src/data/MainWindow.ui:288
 msgid "Stop charging the battery at 80%"
-msgstr "电池电量达到 80% 时停止充电"
+msgstr "Прекратите заряжать батарею на 80%"
 
 #: src/data/MainWindow.ui:312
 msgid "Screen Brightness:"
-msgstr "屏幕亮度："
+msgstr "Яркость экрана:"
 
 #: src/data/MainWindow.ui:349
 msgid "Enable Unstable Power Manager Features"
-msgstr "启用不稳定电源管理器功能"
+msgstr "Включить функции нестабильного управления питанием"
 
 #: src/data/MainWindow.ui:420 src/client/MainWindow.py:84
 #: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
-msgstr "莫纳电源管理器"
+msgstr "Менеджер по мощности Мауна"
 
 #: src/data/MainWindow.ui:492
 msgid "Your device does not have a linux acpi table ."
-msgstr "您的设备没有 Linux acpi 表。"
+msgstr "На вашем устройстве нет таблицы Acpi Linux."
 
 #: src/data/MainWindow.ui:529
 msgid "Your device does not require power management."
-msgstr "您的设备不需要电源管理。"
+msgstr "Ваше устройство не требует управления питанием."
 
 #: src/data/MainWindow.ui:566
 msgid "Your battery is dead."
-msgstr "你的电池没电了。"
+msgstr "Ваша батарея разряжена."
 
 #: src/data/MainWindow.ui:603
 msgid "Your device does not support S3 state sleep."
-msgstr "您的设备不支持 S3 状态睡眠。"
+msgstr "Ваше устройство не поддерживает режим сна S3."
 
 #: src/data/MainWindow.ui:640
 msgid "You are using virtual machine."
-msgstr "您正在使用虚拟机。"
+msgstr "Вы используете виртуальную машину."
 
 #: src/data/MainWindow.ui:677
 msgid "Windows OEM detected."
-msgstr "检测到 Windows OEM。"
+msgstr "Обнаружен OEM-производитель Windows."
 
 #: src/data/MainWindow.ui:714
 msgid "Power management may not works good."
-msgstr "电源管理可能不太好用。"
+msgstr "Управление питанием может работать некорректно."
 
 #: src/data/MainWindow.ui:740
 msgid "Power manager"
-msgstr "电源管理器"
+msgstr "Диспетчер питания"
 
 #: src/data/MainWindow.ui:742
 msgid ""
@@ -96,58 +97,55 @@ msgid ""
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
 "Public License, version 3 or later</a> for details."
 msgstr ""
-"该程序绝对不提供任何保证。\n"
-"有关详细信息，请参阅 <a href=\"https://www.gnu.org/licenses/gpl-3.0."
-"html\">GNU 通用公共许可证版本 3 或更高版本</a>。"
+"Эта программа поставляется без каких-либо гарантий.\n"
+"Подробности см. в <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+"html\">Универсальной общественной лицензии GNU версии 3 или новее</a>."
 
 #: src/client/MainWindow.py:37
 msgid "powersave"
-msgstr "节能"
+msgstr "энергосбережение"
 
 #: src/client/MainWindow.py:38
 msgid "performance"
-msgstr "表现"
+msgstr "производительность"
 
 #: src/client/MainWindow.py:68 src/client/MainWindow.py:299
 #: src/client/MainWindow.py:309
 msgid "Show"
-msgstr "展示"
+msgstr "Показывать"
 
 #: src/client/MainWindow.py:70 src/client/MainWindow.py:305
 msgid "Hide"
-msgstr "隐藏"
+msgstr "Скрывать"
 
 #: src/client/MainWindow.py:78
 msgid "Exit"
-msgstr "出口"
+msgstr "Выход"
 
 #: src/client/MainWindow.py:91
 msgid "About Mauna Power Manager"
-msgstr "关于莫纳电源管理器"
+msgstr "O Менеджер по мощности Мауна"
 
 #: src/client/MainWindow.py:129
 msgid "Performance"
-msgstr "表现"
+msgstr "Производительность"
 
 #: src/client/MainWindow.py:130
 msgid "Powersave"
-msgstr "节能"
+msgstr "Энергосбережение"
 
 #: src/client/MainWindow.py:131
 msgid "Do Noting"
-msgstr "没做什么"
+msgstr "Ничего не делать"
 
 #: src/client/MainWindow.py:173
 msgid "Power profile changed: "
-msgstr "电源配置文件已更改："
+msgstr "Профиль мощности изменен:"
 
 #: src/client/MainWindow.py:176
 msgid "Disable Powersave"
-msgstr "禁用省电模式"
+msgstr "Отключить энергосбережение"
 
 #: src/client/MainWindow.py:179
 msgid "Enable Powersave"
-msgstr "启用省电模式"
-
-#~ msgid "Mauna Linux | 2023"
-#~ msgstr "莫纳 Linux | 2023年"
+msgstr "Включить энергосбережение"

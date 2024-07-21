@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 19:31-0300\n"
-"PO-Revision-Date: 2024-06-24 19:28-0300\n"
+"POT-Creation-Date: 2024-07-21 16:10-0300\n"
+"PO-Revision-Date: 2024-07-21 16:16-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -17,76 +17,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: src/data/MainWindow.ui:61
+#: src/data/MainWindow.ui:62
 msgid "POWERSAVE"
 msgstr "AHORRO DE ENERGÍA"
 
-#: src/data/MainWindow.ui:104
+#: src/data/MainWindow.ui:105
 msgid "PERFORMANCE"
 msgstr "ACTUACIÓN"
 
-#: src/data/MainWindow.ui:148
+#: src/data/MainWindow.ui:149
 msgid "On Power:"
 msgstr "En Energía:"
 
-#: src/data/MainWindow.ui:187
+#: src/data/MainWindow.ui:188
 msgid "On Battery:"
 msgstr "En la batería:"
 
-#: src/data/MainWindow.ui:234
+#: src/data/MainWindow.ui:235
 msgid "Switch to Powersave :"
 msgstr "Cambiar a ahorro de energía:"
 
-#: src/data/MainWindow.ui:251
+#: src/data/MainWindow.ui:252
 msgid "%"
 msgstr "%"
 
-#: src/data/MainWindow.ui:287
+#: src/data/MainWindow.ui:288
 msgid "Stop charging the battery at 80%"
 msgstr "Deja de cargar la batería al 80%."
 
-#: src/data/MainWindow.ui:311
+#: src/data/MainWindow.ui:312
 msgid "Screen Brightness:"
 msgstr "Brillo de la pantalla:"
 
-#: src/data/MainWindow.ui:402 src/client/MainWindow.py:84
+#: src/data/MainWindow.ui:349
+msgid "Enable Unstable Power Manager Features"
+msgstr "Habilitar funciones inestables del Administrador de energía"
+
+#: src/data/MainWindow.ui:420 src/client/MainWindow.py:84
 #: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
 msgstr "Gerente de energía de Mauna"
 
-#: src/data/MainWindow.ui:473
+#: src/data/MainWindow.ui:492
 msgid "Your device does not have a linux acpi table ."
 msgstr "Su dispositivo no tiene una tabla acpi de Linux."
 
-#: src/data/MainWindow.ui:510
+#: src/data/MainWindow.ui:529
 msgid "Your device does not require power management."
 msgstr "Su dispositivo no requiere administración de energía."
 
-#: src/data/MainWindow.ui:547
+#: src/data/MainWindow.ui:566
 msgid "Your battery is dead."
 msgstr "Tu batería está agotada."
 
-#: src/data/MainWindow.ui:584
+#: src/data/MainWindow.ui:603
 msgid "Your device does not support S3 state sleep."
 msgstr "Su dispositivo no admite el estado de suspensión S3."
 
-#: src/data/MainWindow.ui:621
+#: src/data/MainWindow.ui:640
 msgid "You are using virtual machine."
 msgstr "Estás utilizando una máquina virtual."
 
-#: src/data/MainWindow.ui:658
+#: src/data/MainWindow.ui:677
 msgid "Windows OEM detected."
 msgstr "OEM de Windows detectado."
 
-#: src/data/MainWindow.ui:695
+#: src/data/MainWindow.ui:714
 msgid "Power management may not works good."
 msgstr "Es posible que la administración de energía no funcione bien."
 
-#: src/data/MainWindow.ui:721
+#: src/data/MainWindow.ui:740
 msgid "Power manager"
 msgstr "Administrador de energía"
 
-#: src/data/MainWindow.ui:723
+#: src/data/MainWindow.ui:742
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -104,12 +108,12 @@ msgstr "ahorro de energía"
 msgid "performance"
 msgstr "actuación"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:294
-#: src/client/MainWindow.py:304
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:299
+#: src/client/MainWindow.py:309
 msgid "Show"
 msgstr "Mostrar"
 
-#: src/client/MainWindow.py:70 src/client/MainWindow.py:300
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:305
 msgid "Hide"
 msgstr "Ocultar"
 
@@ -133,15 +137,15 @@ msgstr "Ahorro de energía"
 msgid "Do Noting"
 msgstr "Hacer nada"
 
-#: src/client/MainWindow.py:171
+#: src/client/MainWindow.py:173
 msgid "Power profile changed: "
 msgstr "El perfil de energía cambió: "
 
-#: src/client/MainWindow.py:174
+#: src/client/MainWindow.py:176
 msgid "Disable Powersave"
 msgstr "Desactivar ahorro de energía"
 
-#: src/client/MainWindow.py:177
+#: src/client/MainWindow.py:179
 msgid "Enable Powersave"
 msgstr "Habilitar ahorro de energía"
 

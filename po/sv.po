@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 19:31-0300\n"
-"PO-Revision-Date: 2024-06-25 13:52-0300\n"
+"POT-Creation-Date: 2024-07-21 16:10-0300\n"
+"PO-Revision-Date: 2024-07-21 16:40-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv\n"
@@ -17,76 +17,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: src/data/MainWindow.ui:61
+#: src/data/MainWindow.ui:62
 msgid "POWERSAVE"
 msgstr "ENERGISPAR"
 
-#: src/data/MainWindow.ui:104
+#: src/data/MainWindow.ui:105
 msgid "PERFORMANCE"
 msgstr "PRESTANDA"
 
-#: src/data/MainWindow.ui:148
+#: src/data/MainWindow.ui:149
 msgid "On Power:"
 msgstr "På ström:"
 
-#: src/data/MainWindow.ui:187
+#: src/data/MainWindow.ui:188
 msgid "On Battery:"
 msgstr "På batteri:"
 
-#: src/data/MainWindow.ui:234
+#: src/data/MainWindow.ui:235
 msgid "Switch to Powersave :"
 msgstr "Byt till energisparläge:"
 
-#: src/data/MainWindow.ui:251
+#: src/data/MainWindow.ui:252
 msgid "%"
 msgstr "%"
 
-#: src/data/MainWindow.ui:287
+#: src/data/MainWindow.ui:288
 msgid "Stop charging the battery at 80%"
 msgstr "Sluta ladda batteriet vid 80 %"
 
-#: src/data/MainWindow.ui:311
+#: src/data/MainWindow.ui:312
 msgid "Screen Brightness:"
 msgstr "Skärmens ljusstyrka:"
 
-#: src/data/MainWindow.ui:402 src/client/MainWindow.py:84
+#: src/data/MainWindow.ui:349
+msgid "Enable Unstable Power Manager Features"
+msgstr "Aktivera instabila Power Manager-funktioner"
+
+#: src/data/MainWindow.ui:420 src/client/MainWindow.py:84
 #: src/client/MainWindow.py:87
 msgid "Mauna Power Manager"
 msgstr "Mauna Strömförvaltare"
 
-#: src/data/MainWindow.ui:473
+#: src/data/MainWindow.ui:492
 msgid "Your device does not have a linux acpi table ."
 msgstr "Din enhet har ingen linux acpi-tabell."
 
-#: src/data/MainWindow.ui:510
+#: src/data/MainWindow.ui:529
 msgid "Your device does not require power management."
 msgstr "Din enhet kräver inte energihantering."
 
-#: src/data/MainWindow.ui:547
+#: src/data/MainWindow.ui:566
 msgid "Your battery is dead."
 msgstr "Ditt batteri är slut."
 
-#: src/data/MainWindow.ui:584
+#: src/data/MainWindow.ui:603
 msgid "Your device does not support S3 state sleep."
 msgstr "Din enhet stöder inte S3-läge."
 
-#: src/data/MainWindow.ui:621
+#: src/data/MainWindow.ui:640
 msgid "You are using virtual machine."
 msgstr "Du använder virtuell maskin."
 
-#: src/data/MainWindow.ui:658
+#: src/data/MainWindow.ui:677
 msgid "Windows OEM detected."
 msgstr "Windows OEM upptäckt."
 
-#: src/data/MainWindow.ui:695
+#: src/data/MainWindow.ui:714
 msgid "Power management may not works good."
 msgstr "Strömhantering kanske inte fungerar bra."
 
-#: src/data/MainWindow.ui:721
+#: src/data/MainWindow.ui:740
 msgid "Power manager"
 msgstr "Strömförvaltare"
 
-#: src/data/MainWindow.ui:723
+#: src/data/MainWindow.ui:742
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -104,12 +108,12 @@ msgstr "energispar"
 msgid "performance"
 msgstr "prestanda"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:294
-#: src/client/MainWindow.py:304
+#: src/client/MainWindow.py:68 src/client/MainWindow.py:299
+#: src/client/MainWindow.py:309
 msgid "Show"
 msgstr "Show"
 
-#: src/client/MainWindow.py:70 src/client/MainWindow.py:300
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:305
 msgid "Hide"
 msgstr "Dölj"
 
@@ -133,15 +137,15 @@ msgstr "Energispar"
 msgid "Do Noting"
 msgstr "Göra ingenting"
 
-#: src/client/MainWindow.py:171
+#: src/client/MainWindow.py:173
 msgid "Power profile changed: "
 msgstr "Effektprofil ändrad: "
 
-#: src/client/MainWindow.py:174
+#: src/client/MainWindow.py:176
 msgid "Disable Powersave"
 msgstr "Inaktivera Energisparläge"
 
-#: src/client/MainWindow.py:177
+#: src/client/MainWindow.py:179
 msgid "Enable Powersave"
 msgstr "Aktivera Energisparläge"
 

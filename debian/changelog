@@ -1,3 +1,57 @@
+mauna-power-manager (1.0.4) mauna; urgency=medium
+
+  * New upstream release
+
+  * l10n: Update POT
+  * l10n: Update translations
+  * powersave improvements
+  * block power save
+  * block power save
+  * usage
+  * fix battery usage calculator issue
+  * usage update fix
+  * acpi support check. if does not available power save events partically blocked
+  * cli info features
+  * oem and acpi warning added
+  * usb wakeups default when acpi support is not available status
+  * fix wrong acpi warning issue
+  * gpu power management
+  * pcie_aspm configure
+  * add more save options
+  * ignore if last event is same with now
+  * add more warning messages
+  * device type added and fix service debug log
+  * fix device type string
+  * fix chassis_name
+  * WM class
+  * fix meson script
+  * minor fix about usb wakeup backend
+  * wmclass added
+  * fixes about wmclass and meson
+  * hide warning button if update info section missing
+  * dead battery warning
+  * laptop detect improvements
+  * check S3 state warning
+  * scsi host powersave
+  * translation
+  * i2c powersave fix
+  * fix kde wayland wrong icon issue
+  * typo fix
+  * fix warring messages
+  * intel pstate handle
+  * typo fix
+  * fix mpm get mode is ignore issue
+  * cached function
+  * cpu disable process for each little and big cores
+  * fix missing import
+  * fix cpu calculate
+  * enable unstable button for non-acpi supported devices
+  * force mpm enable options
+  * force mpm enable options removed from gui
+  * config update
+
+ -- Mauna Linux <dev@maunalinux.top>  Fri, 26 Jul 2024 18:31:34 -0300
+
 mauna-power-manager (1.0.3) mauna; urgency=medium
 
   * New upstream release

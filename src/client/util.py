@@ -35,7 +35,8 @@ def send_server(data={}):
         #print(data)
         if os.path.exists("/run/mpm"):
             with open("/run/mpm", "w") as f:
-                f.write(json.dumps(data))
+                f.write(json.dumps(data)+"\n")
+                f.flush()
     except Exception as e:
         print(str(e))
 

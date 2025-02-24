@@ -115,6 +115,7 @@ def _powersave():
         usb_path="/sys/bus/usb/devices/"
         for dir in listdir(usb_path):
             writefile("{}/{}/power/control".format(usb_path,dir),"auto")
+            writefile("{}/{}/power/autosuspend_delay_ms".format(usb_path,dir),"60000")
 
     if get("block",True,"power"):
         # block auto suspend
@@ -127,6 +128,7 @@ def _powersave():
         pci_path="/sys/bus/pci/devices/"
         for dir in listdir(pci_path):
             writefile("{}/{}/power/control".format(pci_path,dir),"auto")
+            writefile("{}/{}/power/autosuspend_delay_ms".format(pci_path,dir),"60000")
         writefile("/sys/module/pcie_aspm/parameters/policy", "powersave")            
 
 
@@ -230,7 +232,7 @@ def _performance():
     # vfs cache pressure
     writefile("/proc/sys/vm/vfs_cache_pressure", "100")
 
-    # enable THP    
+    # enable THP
     writefile("/sys/kernel/mm/transparent_hugepage/enabled", "madvise")    
 
     if get("scsi",True,"power"):
@@ -252,12 +254,14 @@ def _performance():
         usb_path="/sys/bus/usb/devices/"
         for dir in listdir(usb_path):
             writefile("{}/{}/power/control".format(usb_path,dir),"on")
+            writefile("{}/{}/power/autosuspend_delay_ms".format(usb_path,dir),"60000")
 
     if get("pci",True,"power"):
         # pci auto suspend
         pci_path="/sys/bus/pci/devices/"
         for dir in listdir(pci_path):
             writefile("{}/{}/power/control".format(pci_path,dir),"on")
+            writefile("{}/{}/power/autosuspend_delay_ms".format(pci_path,dir),"60000")
         writefile("/sys/module/pcie_aspm/parameters/policy", "performance")            
 
 

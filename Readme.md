@@ -17,10 +17,10 @@ systemctl enable mpm
 reboot
 ```
 ## Configuration
-Configuration files store in **/etc/mauna/mpm.conf** file and **/etc/nauna/mpm.conf.d/** directory.
+Configuration files store in **/etc/mauna/mpm.conf** file and **/etc/mauna/mpm.conf.d/** directory.
 
 ## Usage
-You can use `mpm` command for changing profile or brightless
+You can use `mpm` command for changing profile or brightness
 ```
 Usage: pmm [set/get] [mode/backlight] (value)
 ```

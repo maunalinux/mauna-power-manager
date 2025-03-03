@@ -25,3 +25,9 @@ You can use `mpm` command for changing profile or brightness
 Usage: pmm [set/get] [mode/backlight] (value)
 ```
 Also you can use indicator from system tray.
+
+### **Screenshots**
+
+![Mauna Power Manager 1](screenshots/mauna-power-manager-1.png)
+
+![Mauna Power Manager 2](screenshots/mauna-power-manager-2.png)

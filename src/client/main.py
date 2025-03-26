@@ -15,7 +15,7 @@ if os.path.exists(client_dir):
         data["pid"] = os.getpid()
         data["show"] = str(os.getuid())
         no_show = True
-        with open("/run/ppm","w") as f:
+        with open("/run/mpm","w") as f:
             f.write(json.dumps(data))
 if no_show:
     exit(0)

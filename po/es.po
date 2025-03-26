@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 16:10-0300\n"
-"PO-Revision-Date: 2024-07-21 16:16-0300\n"
+"POT-Creation-Date: 2025-02-24 17:18-0300\n"
+"PO-Revision-Date: 2025-03-02 16:21-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -17,80 +17,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: src/data/MainWindow.ui:62
+#: src/data/MainWindow.ui:68
 msgid "POWERSAVE"
 msgstr "AHORRO DE ENERGÍA"
 
-#: src/data/MainWindow.ui:105
+#: src/data/MainWindow.ui:111
+msgid "BALANCED"
+msgstr "EQUILIBRADO"
+
+#: src/data/MainWindow.ui:154
 msgid "PERFORMANCE"
 msgstr "ACTUACIÓN"
 
-#: src/data/MainWindow.ui:149
+#: src/data/MainWindow.ui:198
 msgid "On Power:"
 msgstr "En Energía:"
 
-#: src/data/MainWindow.ui:188
+#: src/data/MainWindow.ui:237
 msgid "On Battery:"
 msgstr "En la batería:"
 
-#: src/data/MainWindow.ui:235
+#: src/data/MainWindow.ui:284
 msgid "Switch to Powersave :"
 msgstr "Cambiar a ahorro de energía:"
 
-#: src/data/MainWindow.ui:252
+#: src/data/MainWindow.ui:301
 msgid "%"
 msgstr "%"
 
-#: src/data/MainWindow.ui:288
+#: src/data/MainWindow.ui:337
 msgid "Stop charging the battery at 80%"
-msgstr "Deja de cargar la batería al 80%."
+msgstr "Deja de cargar la batería al 80%"
 
-#: src/data/MainWindow.ui:312
+#: src/data/MainWindow.ui:361
 msgid "Screen Brightness:"
 msgstr "Brillo de la pantalla:"
 
-#: src/data/MainWindow.ui:349
-msgid "Enable Unstable Power Manager Features"
-msgstr "Habilitar funciones inestables del Administrador de energía"
+#: src/data/MainWindow.ui:428
+msgid "Manage power for USB"
+msgstr "Administrar la energía para USB"
 
-#: src/data/MainWindow.ui:420 src/client/MainWindow.py:84
-#: src/client/MainWindow.py:87
+#: src/data/MainWindow.ui:463
+msgid "Manage power for PCI"
+msgstr "Administrar la energía para PCI"
+
+#: src/data/MainWindow.ui:498
+msgid "Manage power for SCSI"
+msgstr "Administrar la energía para SCSI"
+
+#: src/data/MainWindow.ui:533
+msgid "Manage power for Block Devices"
+msgstr "Administrar la energía para dispositivos de bloque"
+
+#: src/data/MainWindow.ui:568
+msgid "Manage power for I2C"
+msgstr "Administrar la energía para I2C"
+
+#: src/data/MainWindow.ui:603
+msgid "Manage power for Audio"
+msgstr "Administrar la energía para el audio"
+
+#: src/data/MainWindow.ui:638
+msgid "Manage power for Bluetooth"
+msgstr "Administrar la energía para Bluetooth"
+
+#: src/data/MainWindow.ui:673
+msgid "Manage power for GPU"
+msgstr "Administrar la energía para la GPU"
+
+#: src/data/MainWindow.ui:708
+msgid "Manage power for Network"
+msgstr "Administrar la energía para la red"
+
+#: src/data/MainWindow.ui:754
+msgid "Enable Unstable Features"
+msgstr "Habilitar funciones inestables"
+
+#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
+#: src/client/MainWindow.py:88
 msgid "Mauna Power Manager"
 msgstr "Gerente de energía de Mauna"
 
-#: src/data/MainWindow.ui:492
+#: src/data/MainWindow.ui:928
+msgid "About"
+msgstr "Acerca"
+
+#: src/data/MainWindow.ui:972
+msgid "Advanced Settings"
+msgstr "Configuración avanzada"
+
+#: src/data/MainWindow.ui:1016
+msgid "Main Page"
+msgstr "Pagina principal"
+
+#: src/data/MainWindow.ui:1070
 msgid "Your device does not have a linux acpi table ."
 msgstr "Su dispositivo no tiene una tabla acpi de Linux."
 
-#: src/data/MainWindow.ui:529
+#: src/data/MainWindow.ui:1107
 msgid "Your device does not require power management."
 msgstr "Su dispositivo no requiere administración de energía."
 
-#: src/data/MainWindow.ui:566
+#: src/data/MainWindow.ui:1144
 msgid "Your battery is dead."
 msgstr "Tu batería está agotada."
 
-#: src/data/MainWindow.ui:603
+#: src/data/MainWindow.ui:1181
 msgid "Your device does not support S3 state sleep."
 msgstr "Su dispositivo no admite el estado de suspensión S3."
 
-#: src/data/MainWindow.ui:640
+#: src/data/MainWindow.ui:1218
 msgid "You are using virtual machine."
 msgstr "Estás utilizando una máquina virtual."
 
-#: src/data/MainWindow.ui:677
+#: src/data/MainWindow.ui:1255
 msgid "Windows OEM detected."
 msgstr "OEM de Windows detectado."
 
-#: src/data/MainWindow.ui:714
+#: src/data/MainWindow.ui:1292
 msgid "Power management may not works good."
 msgstr "Es posible que la administración de energía no funcione bien."
 
-#: src/data/MainWindow.ui:740
+#: src/data/MainWindow.ui:1318
 msgid "Power manager"
 msgstr "Administrador de energía"
 
-#: src/data/MainWindow.ui:742
+#: src/data/MainWindow.ui:1320
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -105,47 +157,55 @@ msgid "powersave"
 msgstr "ahorro de energía"
 
 #: src/client/MainWindow.py:38
+msgid "balanced"
+msgstr "equilibrado"
+
+#: src/client/MainWindow.py:39
 msgid "performance"
 msgstr "actuación"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:299
-#: src/client/MainWindow.py:309
+#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
+#: src/client/MainWindow.py:383
 msgid "Show"
 msgstr "Mostrar"
 
-#: src/client/MainWindow.py:70 src/client/MainWindow.py:305
+#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
 msgid "Hide"
 msgstr "Ocultar"
 
-#: src/client/MainWindow.py:78
+#: src/client/MainWindow.py:79
 msgid "Exit"
 msgstr "Salir"
 
-#: src/client/MainWindow.py:91
+#: src/client/MainWindow.py:92
 msgid "About Mauna Power Manager"
 msgstr "Acerca de Gerente de energía de Mauna"
 
-#: src/client/MainWindow.py:129
+#: src/client/MainWindow.py:183
 msgid "Performance"
 msgstr "Actuación"
 
-#: src/client/MainWindow.py:130
+#: src/client/MainWindow.py:184
+msgid "Balanced"
+msgstr "Equilibrado"
+
+#: src/client/MainWindow.py:185
 msgid "Powersave"
 msgstr "Ahorro de energía"
 
-#: src/client/MainWindow.py:131
+#: src/client/MainWindow.py:186
 msgid "Do Noting"
 msgstr "Hacer nada"
 
-#: src/client/MainWindow.py:173
+#: src/client/MainWindow.py:226
 msgid "Power profile changed: "
 msgstr "El perfil de energía cambió: "
 
-#: src/client/MainWindow.py:176
+#: src/client/MainWindow.py:229
 msgid "Disable Powersave"
 msgstr "Desactivar ahorro de energía"
 
-#: src/client/MainWindow.py:179
+#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
 msgid "Enable Powersave"
 msgstr "Habilitar ahorro de energía"
 

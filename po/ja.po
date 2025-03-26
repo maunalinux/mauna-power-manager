@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 16:10-0300\n"
-"PO-Revision-Date: 2024-07-21 16:27-0300\n"
+"POT-Creation-Date: 2025-02-24 17:18-0300\n"
+"PO-Revision-Date: 2025-03-02 16:42-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -17,80 +17,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: src/data/MainWindow.ui:62
+#: src/data/MainWindow.ui:68
 msgid "POWERSAVE"
 msgstr "パワーセーブ"
 
-#: src/data/MainWindow.ui:105
+#: src/data/MainWindow.ui:111
+msgid "BALANCED"
+msgstr "バランスのとれた"
+
+#: src/data/MainWindow.ui:154
 msgid "PERFORMANCE"
 msgstr "パフォーマンス"
 
-#: src/data/MainWindow.ui:149
+#: src/data/MainWindow.ui:198
 msgid "On Power:"
 msgstr "電源投入時:"
 
-#: src/data/MainWindow.ui:188
+#: src/data/MainWindow.ui:237
 msgid "On Battery:"
 msgstr "電池で："
 
-#: src/data/MainWindow.ui:235
+#: src/data/MainWindow.ui:284
 msgid "Switch to Powersave :"
 msgstr "省電力に切り替える:"
 
-#: src/data/MainWindow.ui:252
+#: src/data/MainWindow.ui:301
 msgid "%"
 msgstr "%"
 
-#: src/data/MainWindow.ui:288
+#: src/data/MainWindow.ui:337
 msgid "Stop charging the battery at 80%"
 msgstr "バッテリーの充電を 80% で停止する"
 
-#: src/data/MainWindow.ui:312
+#: src/data/MainWindow.ui:361
 msgid "Screen Brightness:"
 msgstr "画面の明るさ:"
 
-#: src/data/MainWindow.ui:349
-msgid "Enable Unstable Power Manager Features"
-msgstr "不安定な電源管理機能を有効にする"
+#: src/data/MainWindow.ui:428
+msgid "Manage power for USB"
+msgstr "USBの電源を管理する"
 
-#: src/data/MainWindow.ui:420 src/client/MainWindow.py:84
-#: src/client/MainWindow.py:87
+#: src/data/MainWindow.ui:463
+msgid "Manage power for PCI"
+msgstr "PCIの電源を管理する"
+
+#: src/data/MainWindow.ui:498
+msgid "Manage power for SCSI"
+msgstr "SCSIの電源を管理する"
+
+#: src/data/MainWindow.ui:533
+msgid "Manage power for Block Devices"
+msgstr "ブロックデバイスの電源を管理する"
+
+#: src/data/MainWindow.ui:568
+msgid "Manage power for I2C"
+msgstr "I2Cの電源を管理する"
+
+#: src/data/MainWindow.ui:603
+msgid "Manage power for Audio"
+msgstr "オーディオの電源を管理する"
+
+#: src/data/MainWindow.ui:638
+msgid "Manage power for Bluetooth"
+msgstr "Bluetoothの電源を管理する"
+
+#: src/data/MainWindow.ui:673
+msgid "Manage power for GPU"
+msgstr "GPUの電源を管理する"
+
+#: src/data/MainWindow.ui:708
+msgid "Manage power for Network"
+msgstr "ネットワークの電源を管理する"
+
+#: src/data/MainWindow.ui:754
+msgid "Enable Unstable Features"
+msgstr "不安定な機能を有効にする"
+
+#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
+#: src/client/MainWindow.py:88
 msgid "Mauna Power Manager"
 msgstr "マウナパワーマネージャー"
 
-#: src/data/MainWindow.ui:492
+#: src/data/MainWindow.ui:928
+msgid "About"
+msgstr "について"
+
+#: src/data/MainWindow.ui:972
+msgid "Advanced Settings"
+msgstr "詳細設定"
+
+#: src/data/MainWindow.ui:1016
+msgid "Main Page"
+msgstr "メインページ"
+
+#: src/data/MainWindow.ui:1070
 msgid "Your device does not have a linux acpi table ."
 msgstr "デバイスには Linux acpi テーブルがありません。"
 
-#: src/data/MainWindow.ui:529
+#: src/data/MainWindow.ui:1107
 msgid "Your device does not require power management."
 msgstr "デバイスには電源管理は必要ありません。"
 
-#: src/data/MainWindow.ui:566
+#: src/data/MainWindow.ui:1144
 msgid "Your battery is dead."
 msgstr "バッテリーが切れました。"
 
-#: src/data/MainWindow.ui:603
+#: src/data/MainWindow.ui:1181
 msgid "Your device does not support S3 state sleep."
 msgstr "お使いのデバイスは S3 状態のスリープをサポートしていません。"
 
-#: src/data/MainWindow.ui:640
+#: src/data/MainWindow.ui:1218
 msgid "You are using virtual machine."
 msgstr "仮想マシンを使用しています。"
 
-#: src/data/MainWindow.ui:677
+#: src/data/MainWindow.ui:1255
 msgid "Windows OEM detected."
 msgstr "Windows OEMが検出されました。"
 
-#: src/data/MainWindow.ui:714
+#: src/data/MainWindow.ui:1292
 msgid "Power management may not works good."
 msgstr "電源管理がうまく機能しない可能性があります。"
 
-#: src/data/MainWindow.ui:740
+#: src/data/MainWindow.ui:1318
 msgid "Power manager"
 msgstr "パワーマネージャー"
 
-#: src/data/MainWindow.ui:742
+#: src/data/MainWindow.ui:1320
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -105,47 +157,55 @@ msgid "powersave"
 msgstr "省電力"
 
 #: src/client/MainWindow.py:38
+msgid "balanced"
+msgstr "バランスのとれた"
+
+#: src/client/MainWindow.py:39
 msgid "performance"
 msgstr "パフォーマンス"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:299
-#: src/client/MainWindow.py:309
+#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
+#: src/client/MainWindow.py:383
 msgid "Show"
 msgstr "見せる"
 
-#: src/client/MainWindow.py:70 src/client/MainWindow.py:305
+#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
 msgid "Hide"
 msgstr "隠れる"
 
-#: src/client/MainWindow.py:78
+#: src/client/MainWindow.py:79
 msgid "Exit"
 msgstr "出口"
 
-#: src/client/MainWindow.py:91
+#: src/client/MainWindow.py:92
 msgid "About Mauna Power Manager"
 msgstr "マウナパワーマネージャーについて"
 
-#: src/client/MainWindow.py:129
+#: src/client/MainWindow.py:183
 msgid "Performance"
 msgstr "パフォーマンス"
 
-#: src/client/MainWindow.py:130
+#: src/client/MainWindow.py:184
+msgid "Balanced"
+msgstr "バランスのとれた"
+
+#: src/client/MainWindow.py:185
 msgid "Powersave"
 msgstr "省電力"
 
-#: src/client/MainWindow.py:131
+#: src/client/MainWindow.py:186
 msgid "Do Noting"
 msgstr "何もしない"
 
-#: src/client/MainWindow.py:173
+#: src/client/MainWindow.py:226
 msgid "Power profile changed: "
 msgstr "電力プロファイルが変更されました: "
 
-#: src/client/MainWindow.py:176
+#: src/client/MainWindow.py:229
 msgid "Disable Powersave"
 msgstr "省電力を無効にする"
 
-#: src/client/MainWindow.py:179
+#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
 msgid "Enable Powersave"
 msgstr "省電力を有効にする"
 

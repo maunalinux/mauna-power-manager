@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 16:10-0300\n"
-"PO-Revision-Date: 2024-07-21 16:27-0300\n"
+"POT-Creation-Date: 2025-02-24 17:18-0300\n"
+"PO-Revision-Date: 2025-03-02 16:36-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi\n"
@@ -17,80 +17,132 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: src/data/MainWindow.ui:62
+#: src/data/MainWindow.ui:68
 msgid "POWERSAVE"
 msgstr "बिजली बचाओ"
 
-#: src/data/MainWindow.ui:105
+#: src/data/MainWindow.ui:111
+msgid "BALANCED"
+msgstr "बैलेंस्ड"
+
+#: src/data/MainWindow.ui:154
 msgid "PERFORMANCE"
 msgstr "प्रदर्शन"
 
-#: src/data/MainWindow.ui:149
+#: src/data/MainWindow.ui:198
 msgid "On Power:"
 msgstr "शक्ति पर:"
 
-#: src/data/MainWindow.ui:188
+#: src/data/MainWindow.ui:237
 msgid "On Battery:"
 msgstr "बैटरी पर:"
 
-#: src/data/MainWindow.ui:235
+#: src/data/MainWindow.ui:284
 msgid "Switch to Powersave :"
 msgstr "पॉवरसेव पर स्विच करें:"
 
-#: src/data/MainWindow.ui:252
+#: src/data/MainWindow.ui:301
 msgid "%"
 msgstr "%"
 
-#: src/data/MainWindow.ui:288
+#: src/data/MainWindow.ui:337
 msgid "Stop charging the battery at 80%"
 msgstr "बैटरी को 80% पर चार्ज करना बंद करें"
 
-#: src/data/MainWindow.ui:312
+#: src/data/MainWindow.ui:361
 msgid "Screen Brightness:"
 msgstr "स्क्रीन की तेजस्विता:"
 
-#: src/data/MainWindow.ui:349
-msgid "Enable Unstable Power Manager Features"
-msgstr "अस्थिर पावर प्रबंधक सुविधाएँ सक्षम करें"
+#: src/data/MainWindow.ui:428
+msgid "Manage power for USB"
+msgstr "USB के लिए पावर प्रबंधित करें"
 
-#: src/data/MainWindow.ui:420 src/client/MainWindow.py:84
-#: src/client/MainWindow.py:87
+#: src/data/MainWindow.ui:463
+msgid "Manage power for PCI"
+msgstr "PCI के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:498
+msgid "Manage power for SCSI"
+msgstr "SCSI के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:533
+msgid "Manage power for Block Devices"
+msgstr "ब्लॉक डिवाइस के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:568
+msgid "Manage power for I2C"
+msgstr "I2C के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:603
+msgid "Manage power for Audio"
+msgstr "ऑडियो के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:638
+msgid "Manage power for Bluetooth"
+msgstr "ब्लूटूथ के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:673
+msgid "Manage power for GPU"
+msgstr "GPU के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:708
+msgid "Manage power for Network"
+msgstr "नेटवर्क के लिए पावर प्रबंधित करें"
+
+#: src/data/MainWindow.ui:754
+msgid "Enable Unstable Features"
+msgstr "अस्थिर सुविधाएँ सक्षम करें"
+
+#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
+#: src/client/MainWindow.py:88
 msgid "Mauna Power Manager"
 msgstr "मौना पावर मैनेजर"
 
-#: src/data/MainWindow.ui:492
+#: src/data/MainWindow.ui:928
+msgid "About"
+msgstr "के बारे में"
+
+#: src/data/MainWindow.ui:972
+msgid "Advanced Settings"
+msgstr "एडवांस सेटिंग"
+
+#: src/data/MainWindow.ui:1016
+msgid "Main Page"
+msgstr "मुख्य पृष्ठ"
+
+#: src/data/MainWindow.ui:1070
 msgid "Your device does not have a linux acpi table ."
 msgstr "आपके डिवाइस में लिनक्स acpi तालिका नहीं है."
 
-#: src/data/MainWindow.ui:529
+#: src/data/MainWindow.ui:1107
 msgid "Your device does not require power management."
 msgstr "आपके डिवाइस को पावर प्रबंधन की आवश्यकता नहीं है."
 
-#: src/data/MainWindow.ui:566
+#: src/data/MainWindow.ui:1144
 msgid "Your battery is dead."
 msgstr "आपकी बैटरी ख़त्म हो गयी है."
 
-#: src/data/MainWindow.ui:603
+#: src/data/MainWindow.ui:1181
 msgid "Your device does not support S3 state sleep."
 msgstr "आपका डिवाइस S3 स्टेट स्लीप का समर्थन नहीं करता है."
 
-#: src/data/MainWindow.ui:640
+#: src/data/MainWindow.ui:1218
 msgid "You are using virtual machine."
 msgstr "आप वर्चुअल मशीन का उपयोग कर रहे हैं."
 
-#: src/data/MainWindow.ui:677
+#: src/data/MainWindow.ui:1255
 msgid "Windows OEM detected."
 msgstr "विंडोज़ OEM का पता चला."
 
-#: src/data/MainWindow.ui:714
+#: src/data/MainWindow.ui:1292
 msgid "Power management may not works good."
 msgstr "पावर प्रबंधन शायद ठीक से काम न करे।"
 
-#: src/data/MainWindow.ui:740
+#: src/data/MainWindow.ui:1318
 msgid "Power manager"
 msgstr "पावर मैनेजर"
 
-#: src/data/MainWindow.ui:742
+#: src/data/MainWindow.ui:1320
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -105,47 +157,55 @@ msgid "powersave"
 msgstr "बिजली बचाओ"
 
 #: src/client/MainWindow.py:38
+msgid "balanced"
+msgstr "बैलेंस्ड"
+
+#: src/client/MainWindow.py:39
 msgid "performance"
 msgstr "प्रदर्शन"
 
-#: src/client/MainWindow.py:68 src/client/MainWindow.py:299
-#: src/client/MainWindow.py:309
+#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
+#: src/client/MainWindow.py:383
 msgid "Show"
 msgstr "दिखाओ"
 
-#: src/client/MainWindow.py:70 src/client/MainWindow.py:305
+#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
 msgid "Hide"
 msgstr "छिपाना"
 
-#: src/client/MainWindow.py:78
+#: src/client/MainWindow.py:79
 msgid "Exit"
 msgstr "बाहर निकलना"
 
-#: src/client/MainWindow.py:91
+#: src/client/MainWindow.py:92
 msgid "About Mauna Power Manager"
 msgstr "मौना पावर मैनेजर के बारे में"
 
-#: src/client/MainWindow.py:129
+#: src/client/MainWindow.py:183
 msgid "Performance"
 msgstr "प्रदर्शन"
 
-#: src/client/MainWindow.py:130
+#: src/client/MainWindow.py:184
+msgid "Balanced"
+msgstr "संतुलित"
+
+#: src/client/MainWindow.py:185
 msgid "Powersave"
 msgstr "बिजली बचाओ"
 
-#: src/client/MainWindow.py:131
+#: src/client/MainWindow.py:186
 msgid "Do Noting"
 msgstr "कुछ भी नहीं है"
 
-#: src/client/MainWindow.py:173
+#: src/client/MainWindow.py:226
 msgid "Power profile changed: "
 msgstr "पावर प्रोफाइल बदल गया: "
 
-#: src/client/MainWindow.py:176
+#: src/client/MainWindow.py:229
 msgid "Disable Powersave"
 msgstr "पॉवरसेव अक्षम करें"
 
-#: src/client/MainWindow.py:179
+#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
 msgid "Enable Powersave"
 msgstr "पॉवरसेव सक्षम करें"
 

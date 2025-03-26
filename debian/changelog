@@ -1,3 +1,46 @@
+mauna-power-manager (2.0.0) mauna; urgency=medium
+
+  * New upstream release
+  * sysv-init service added and default for debian
+  * trace backlight change and update request
+  * inotify is optional dependency
+  * fix update event dup and service crash guard
+  * send_server semaphore added
+  * update request on client open
+  * send queue 100ms time delay added
+  * Update power.py
+  * replace battery event loop fork with thread
+  * config save operation moved to service
+  * remove unused file
+  * autosuspend delay added (60sec)
+  * suspend delay from config added
+  * do not autosuspend HID and Hub devices
+  * fix oem detect
+  * Update Readme
+  * advanced settings page added
+  * fix popover pop down issue
+  * fix wrong icons
+  * hide unstable options if acpi issue is not detected
+  * power mode setting rewritten
+  * remove dups
+  * add balanced mode to backend
+  * balanced mode added in client
+  * minor fixes
+  * service battery update event fix
+  * default ac mode is balanced
+  * Fix translation
+  * Update POT file
+  * ac-mode balanced fix
+  * freq decrease ignored if max freq lower than 2Ghz
+  * config reload on new config event
+  * update copyright
+  * Add screenshots
+  * Remove translation
+  * l10n: update translations
+  * l10n: New translations added
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 26 Mar 2025 20:17:02 -0300
+
 mauna-power-manager (1.0.4) mauna; urgency=medium
 
   * New upstream release

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-24 17:18-0300\n"
+"PO-Revision-Date: 2025-03-02 14:24-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: src/data/MainWindow.ui:68
+msgid "POWERSAVE"
+msgstr "Εξοικονόμηση ενέργειας"
+
+#: src/data/MainWindow.ui:111
+msgid "BALANCED"
+msgstr "ΙΣΟΡΡΟΠΗΜΕΝΟΣ"
+
+#: src/data/MainWindow.ui:154
+msgid "PERFORMANCE"
+msgstr "ΕΚΤΕΛΕΣΗ"
+
+#: src/data/MainWindow.ui:198
+msgid "On Power:"
+msgstr "Στην τροφοδοσία:"
+
+#: src/data/MainWindow.ui:237
+msgid "On Battery:"
+msgstr "Με μπαταρία:"
+
+#: src/data/MainWindow.ui:284
+msgid "Switch to Powersave :"
+msgstr "Μετάβαση σε Εξοικονόμηση ενέργειας:"
+
+#: src/data/MainWindow.ui:301
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:337
+msgid "Stop charging the battery at 80%"
+msgstr "Σταματήστε τη φόρτιση της μπαταρίας στο 80%"
+
+#: src/data/MainWindow.ui:361
+msgid "Screen Brightness:"
+msgstr "Φωτεινότητα οθόνης:"
+
+#: src/data/MainWindow.ui:428
+msgid "Manage power for USB"
+msgstr "Διαχείριση ενέργειας για USB"
+
+#: src/data/MainWindow.ui:463
+msgid "Manage power for PCI"
+msgstr "Διαχείριση ισχύος για PCI"
+
+#: src/data/MainWindow.ui:498
+msgid "Manage power for SCSI"
+msgstr "Διαχείριση ισχύος για SCSI"
+
+#: src/data/MainWindow.ui:533
+msgid "Manage power for Block Devices"
+msgstr "Διαχείριση ενέργειας για Αποκλεισμός συσκευών"
+
+#: src/data/MainWindow.ui:568
+msgid "Manage power for I2C"
+msgstr "Διαχείριση ενέργειας για το I2C"
+
+#: src/data/MainWindow.ui:603
+msgid "Manage power for Audio"
+msgstr "Διαχείριση ενέργειας για Ήχο"
+
+#: src/data/MainWindow.ui:638
+msgid "Manage power for Bluetooth"
+msgstr "Διαχείριση ενέργειας για Bluetooth"
+
+#: src/data/MainWindow.ui:673
+msgid "Manage power for GPU"
+msgstr "Διαχείριση ενέργειας για GPU"
+
+#: src/data/MainWindow.ui:708
+msgid "Manage power for Network"
+msgstr "Διαχείριση ενέργειας για το δίκτυο"
+
+#: src/data/MainWindow.ui:754
+msgid "Enable Unstable Features"
+msgstr "Ενεργοποίηση ασταθών δυνατοτήτων"
+
+#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
+#: src/client/MainWindow.py:88
+msgid "Mauna Power Manager"
+msgstr "Διαχειριστής ενέργειας Mauna"
+
+#: src/data/MainWindow.ui:928
+msgid "About"
+msgstr "Για"
+
+#: src/data/MainWindow.ui:972
+msgid "Advanced Settings"
+msgstr "Προηγμένες ρυθμίσεις"
+
+#: src/data/MainWindow.ui:1016
+msgid "Main Page"
+msgstr "Κεντρική Σελίδα"
+
+#: src/data/MainWindow.ui:1070
+msgid "Your device does not have a linux acpi table ."
+msgstr "Η συσκευή σας δεν διαθέτει πίνακα acpi linux."
+
+#: src/data/MainWindow.ui:1107
+msgid "Your device does not require power management."
+msgstr "Η συσκευή σας δεν απαιτεί διαχείριση ενέργειας."
+
+#: src/data/MainWindow.ui:1144
+msgid "Your battery is dead."
+msgstr "Η μπαταρία σας έχει τελειώσει."
+
+#: src/data/MainWindow.ui:1181
+msgid "Your device does not support S3 state sleep."
+msgstr "Η συσκευή σας δεν υποστηρίζει κατάσταση ύπνου S3."
+
+#: src/data/MainWindow.ui:1218
+msgid "You are using virtual machine."
+msgstr "Χρησιμοποιείτε εικονική μηχανή."
+
+#: src/data/MainWindow.ui:1255
+msgid "Windows OEM detected."
+msgstr "Εντοπίστηκε OEM των Windows."
+
+#: src/data/MainWindow.ui:1292
+msgid "Power management may not works good."
+msgstr "Η διαχείριση ενέργειας μπορεί να μην λειτουργεί καλά."
+
+#: src/data/MainWindow.ui:1318
+msgid "Power manager"
+msgstr "Διαχειριστής ενέργειας"
+
+#: src/data/MainWindow.ui:1320
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"Αυτό το πρόγραμμα έρχεται με καμία απολύτως εγγύηση.\n"
+"Ανατρέξτε στην <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
+"General Public License, έκδοση 3 ή μεταγενέστερη</a> για λεπτομέρειες."
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "εξοικονόμηση ενέργειας"
+
+#: src/client/MainWindow.py:38
+msgid "balanced"
+msgstr "ισορροπημένη"
+
+#: src/client/MainWindow.py:39
+msgid "performance"
+msgstr "εκτέλεση"
+
+#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
+#: src/client/MainWindow.py:383
+msgid "Show"
+msgstr "Επίδειξη"
+
+#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+msgid "Hide"
+msgstr "Κρύβω"
+
+#: src/client/MainWindow.py:79
+msgid "Exit"
+msgstr "Εξοδος"
+
+#: src/client/MainWindow.py:92
+msgid "About Mauna Power Manager"
+msgstr "Σχετικά με το Διαχειριστής ενέργειας Mauna"
+
+#: src/client/MainWindow.py:183
+msgid "Performance"
+msgstr "Εκτέλεση"
+
+#: src/client/MainWindow.py:184
+msgid "Balanced"
+msgstr "Ισορροπημένο"
+
+#: src/client/MainWindow.py:185
+msgid "Powersave"
+msgstr "Εξοικονόμηση ενέργειας"
+
+#: src/client/MainWindow.py:186
+msgid "Do Noting"
+msgstr "Μην κάνετε τίποτα"
+
+#: src/client/MainWindow.py:226
+msgid "Power profile changed: "
+msgstr "Το προφίλ ισχύος άλλαξε: "
+
+#: src/client/MainWindow.py:229
+msgid "Disable Powersave"
+msgstr "Απενεργοποιήστε την Εξοικονόμηση ενέργειας"
+
+#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+msgid "Enable Powersave"
+msgstr "Ενεργοποιήστε την Εξοικονόμηση ενέργειας"

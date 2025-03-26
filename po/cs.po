@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-24 17:18-0300\n"
+"PO-Revision-Date: 2025-03-03 13:29-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: src/data/MainWindow.ui:68
+msgid "POWERSAVE"
+msgstr "ÚSPORA ENERGIE"
+
+#: src/data/MainWindow.ui:111
+msgid "BALANCED"
+msgstr "VYROVNANÝ"
+
+#: src/data/MainWindow.ui:154
+msgid "PERFORMANCE"
+msgstr "VÝKON"
+
+#: src/data/MainWindow.ui:198
+msgid "On Power:"
+msgstr "Zapnuto:"
+
+#: src/data/MainWindow.ui:237
+msgid "On Battery:"
+msgstr "Na baterii:"
+
+#: src/data/MainWindow.ui:284
+msgid "Switch to Powersave :"
+msgstr "Přepnout na úsporný režim :"
+
+#: src/data/MainWindow.ui:301
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:337
+msgid "Stop charging the battery at 80%"
+msgstr "Přestaňte nabíjet baterii na 80 %"
+
+#: src/data/MainWindow.ui:361
+msgid "Screen Brightness:"
+msgstr "Jas obrazovky:"
+
+#: src/data/MainWindow.ui:428
+msgid "Manage power for USB"
+msgstr "Správa napájení pro USB"
+
+#: src/data/MainWindow.ui:463
+msgid "Manage power for PCI"
+msgstr "Správa napájení pro PCI"
+
+#: src/data/MainWindow.ui:498
+msgid "Manage power for SCSI"
+msgstr "Správa napájení pro SCSI"
+
+#: src/data/MainWindow.ui:533
+msgid "Manage power for Block Devices"
+msgstr "Spravujte napájení blokových zařízení"
+
+#: src/data/MainWindow.ui:568
+msgid "Manage power for I2C"
+msgstr "Správa napájení pro I2C"
+
+#: src/data/MainWindow.ui:603
+msgid "Manage power for Audio"
+msgstr "Správa napájení pro zvuk"
+
+#: src/data/MainWindow.ui:638
+msgid "Manage power for Bluetooth"
+msgstr "Spravujte napájení pro Bluetooth"
+
+#: src/data/MainWindow.ui:673
+msgid "Manage power for GPU"
+msgstr "Správa napájení GPU"
+
+#: src/data/MainWindow.ui:708
+msgid "Manage power for Network"
+msgstr "Správa napájení sítě"
+
+#: src/data/MainWindow.ui:754
+msgid "Enable Unstable Features"
+msgstr "Povolit nestabilní funkce"
+
+#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
+#: src/client/MainWindow.py:88
+msgid "Mauna Power Manager"
+msgstr "Správce Napájení Mauna"
+
+#: src/data/MainWindow.ui:928
+msgid "About"
+msgstr "O"
+
+#: src/data/MainWindow.ui:972
+msgid "Advanced Settings"
+msgstr "Pokročilá nastavení"
+
+#: src/data/MainWindow.ui:1016
+msgid "Main Page"
+msgstr "Hlavní stránka"
+
+#: src/data/MainWindow.ui:1070
+msgid "Your device does not have a linux acpi table ."
+msgstr "Vaše zařízení nemá linuxovou acpi tabulku."
+
+#: src/data/MainWindow.ui:1107
+msgid "Your device does not require power management."
+msgstr "Vaše zařízení nevyžaduje správu napájení."
+
+#: src/data/MainWindow.ui:1144
+msgid "Your battery is dead."
+msgstr "Vaše baterie je vybitá."
+
+#: src/data/MainWindow.ui:1181
+msgid "Your device does not support S3 state sleep."
+msgstr "Vaše zařízení nepodporuje režim spánku ve stavu S3."
+
+#: src/data/MainWindow.ui:1218
+msgid "You are using virtual machine."
+msgstr "Používáte virtuální stroj."
+
+#: src/data/MainWindow.ui:1255
+msgid "Windows OEM detected."
+msgstr "Windows OEM zjištěn."
+
+#: src/data/MainWindow.ui:1292
+msgid "Power management may not works good."
+msgstr "Správa napájení nemusí fungovat dobře."
+
+#: src/data/MainWindow.ui:1318
+msgid "Power manager"
+msgstr "Správce napájení"
+
+#: src/data/MainWindow.ui:1320
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"Tento program je absolutně bez záruky.\n"
+"Podrobnosti naleznete v <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+"html\">GNU General Public License, verze 3 nebo novější</a>."
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "úspora energie"
+
+#: src/client/MainWindow.py:38
+msgid "balanced"
+msgstr "vyrovnaný"
+
+#: src/client/MainWindow.py:39
+msgid "performance"
+msgstr "výkon"
+
+#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
+#: src/client/MainWindow.py:383
+msgid "Show"
+msgstr "Show"
+
+#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+msgid "Hide"
+msgstr "Skrýt"
+
+#: src/client/MainWindow.py:79
+msgid "Exit"
+msgstr "Výstup"
+
+#: src/client/MainWindow.py:92
+msgid "About Mauna Power Manager"
+msgstr "O Správce napájení Mauna"
+
+#: src/client/MainWindow.py:183
+msgid "Performance"
+msgstr "Výkon"
+
+#: src/client/MainWindow.py:184
+msgid "Balanced"
+msgstr "Vyrovnaný"
+
+#: src/client/MainWindow.py:185
+msgid "Powersave"
+msgstr "Úsporný režim"
+
+#: src/client/MainWindow.py:186
+msgid "Do Noting"
+msgstr "Nedělat nic"
+
+#: src/client/MainWindow.py:226
+msgid "Power profile changed: "
+msgstr "Výkonový profil se změnil: "
+
+#: src/client/MainWindow.py:229
+msgid "Disable Powersave"
+msgstr "Zakázat úsporu energie"
+
+#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+msgid "Enable Powersave"
+msgstr "Povolit úsporu energie"

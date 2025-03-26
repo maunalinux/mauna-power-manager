@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-24 17:18-0300\n"
+"PO-Revision-Date: 2025-03-03 14:24-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: src/data/MainWindow.ui:68
+msgid "POWERSAVE"
+msgstr "RAFSPARNAÐUR"
+
+#: src/data/MainWindow.ui:111
+msgid "BALANCED"
+msgstr "JAFNVÆGT"
+
+#: src/data/MainWindow.ui:154
+msgid "PERFORMANCE"
+msgstr "FRAMKVÆMD"
+
+#: src/data/MainWindow.ui:198
+msgid "On Power:"
+msgstr "Á krafti:"
+
+#: src/data/MainWindow.ui:237
+msgid "On Battery:"
+msgstr "Á rafhlöðu:"
+
+#: src/data/MainWindow.ui:284
+msgid "Switch to Powersave :"
+msgstr "Skiptu yfir í orkusparnað :"
+
+#: src/data/MainWindow.ui:301
+msgid "%"
+msgstr "%"
+
+#: src/data/MainWindow.ui:337
+msgid "Stop charging the battery at 80%"
+msgstr "Hættu að hlaða rafhlöðuna við 80%"
+
+#: src/data/MainWindow.ui:361
+msgid "Screen Brightness:"
+msgstr "Skjár birta:"
+
+#: src/data/MainWindow.ui:428
+msgid "Manage power for USB"
+msgstr "Stjórna orku fyrir USB"
+
+#: src/data/MainWindow.ui:463
+msgid "Manage power for PCI"
+msgstr "Stjórna orku fyrir PCI"
+
+#: src/data/MainWindow.ui:498
+msgid "Manage power for SCSI"
+msgstr "Stjórna krafti fyrir SCSI"
+
+#: src/data/MainWindow.ui:533
+msgid "Manage power for Block Devices"
+msgstr "Hafa umsjón með krafti fyrir blokkunartæki"
+
+#: src/data/MainWindow.ui:568
+msgid "Manage power for I2C"
+msgstr "Stjórna orku fyrir I2C"
+
+#: src/data/MainWindow.ui:603
+msgid "Manage power for Audio"
+msgstr "Stjórna krafti fyrir hljóð"
+
+#: src/data/MainWindow.ui:638
+msgid "Manage power for Bluetooth"
+msgstr "Stjórna orku fyrir Bluetooth"
+
+#: src/data/MainWindow.ui:673
+msgid "Manage power for GPU"
+msgstr "Stjórna krafti fyrir GPU"
+
+#: src/data/MainWindow.ui:708
+msgid "Manage power for Network"
+msgstr "Stjórna orku fyrir net"
+
+#: src/data/MainWindow.ui:754
+msgid "Enable Unstable Features"
+msgstr "Virkja óstöðuga eiginleika"
+
+#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
+#: src/client/MainWindow.py:88
+msgid "Mauna Power Manager"
+msgstr "Rafmagnsstjóri Mauna"
+
+#: src/data/MainWindow.ui:928
+msgid "About"
+msgstr "Um"
+
+#: src/data/MainWindow.ui:972
+msgid "Advanced Settings"
+msgstr "Ítarlegar stillingar"
+
+#: src/data/MainWindow.ui:1016
+msgid "Main Page"
+msgstr "Aðalsíða"
+
+#: src/data/MainWindow.ui:1070
+msgid "Your device does not have a linux acpi table ."
+msgstr "Tækið þitt er ekki með linux acpi töflu."
+
+#: src/data/MainWindow.ui:1107
+msgid "Your device does not require power management."
+msgstr "Tækið þitt þarfnast ekki orkustýringar."
+
+#: src/data/MainWindow.ui:1144
+msgid "Your battery is dead."
+msgstr "Rafhlaðan þín er dauð."
+
+#: src/data/MainWindow.ui:1181
+msgid "Your device does not support S3 state sleep."
+msgstr "Tækið þitt styður ekki S3 ástand svefn."
+
+#: src/data/MainWindow.ui:1218
+msgid "You are using virtual machine."
+msgstr "Þú ert að nota sýndarvél."
+
+#: src/data/MainWindow.ui:1255
+msgid "Windows OEM detected."
+msgstr "Windows OEM fannst."
+
+#: src/data/MainWindow.ui:1292
+msgid "Power management may not works good."
+msgstr "Rafmagnsstjórnun virkar kannski ekki vel."
+
+#: src/data/MainWindow.ui:1318
+msgid "Power manager"
+msgstr "Rafmagnsstjóri"
+
+#: src/data/MainWindow.ui:1320
+msgid ""
+"This program comes with absolutely no warranty.\n"
+"See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, version 3 or later</a> for details."
+msgstr ""
+"Þetta forrit kemur með nákvæmlega enga ábyrgð.\n"
+"Sjá <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
+"Public License, útgáfu 3 eða nýrri</a> fyrir frekari upplýsingar."
+
+#: src/client/MainWindow.py:37
+msgid "powersave"
+msgstr "orkusparnaður"
+
+#: src/client/MainWindow.py:38
+msgid "balanced"
+msgstr "jafnvægi"
+
+#: src/client/MainWindow.py:39
+msgid "performance"
+msgstr "frammistöðu"
+
+#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
+#: src/client/MainWindow.py:383
+msgid "Show"
+msgstr "Sýna"
+
+#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+msgid "Hide"
+msgstr "Fela"
+
+#: src/client/MainWindow.py:79
+msgid "Exit"
+msgstr "Hætta"
+
+#: src/client/MainWindow.py:92
+msgid "About Mauna Power Manager"
+msgstr "Um Rafmagnsstjóri Mauna"
+
+#: src/client/MainWindow.py:183
+msgid "Performance"
+msgstr "Frammistaða"
+
+#: src/client/MainWindow.py:184
+msgid "Balanced"
+msgstr "Jafnvægi"
+
+#: src/client/MainWindow.py:185
+msgid "Powersave"
+msgstr "Orkusparnaður"
+
+#: src/client/MainWindow.py:186
+msgid "Do Noting"
+msgstr "Gerðu ekkert"
+
+#: src/client/MainWindow.py:226
+msgid "Power profile changed: "
+msgstr "Aflsnið breytt:"
+
+#: src/client/MainWindow.py:229
+msgid "Disable Powersave"
+msgstr "Slökktu á orkusparnaði"
+
+#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+msgid "Enable Powersave"
+msgstr "Virkja orkusparnað"

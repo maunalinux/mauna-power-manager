@@ -18,7 +18,7 @@ singleinstance()
 if os.path.exists("/run/mpm"):
     os.unlink("/run/mpm")
 
-if get("usb-wakeups",not is_acpi_supported(), "service"):
+if get("usb-wakeups",False, "service"):
     enable_usb_wakeups()
     
 log_begin()

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 17:18-0300\n"
-"PO-Revision-Date: 2025-03-02 14:24-0300\n"
+"POT-Creation-Date: 2025-10-20 21:29-0300\n"
+"PO-Revision-Date: 2025-10-21 08:56-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: el\n"
@@ -94,56 +94,72 @@ msgstr "Διαχείριση ενέργειας για το δίκτυο"
 msgid "Enable Unstable Features"
 msgstr "Ενεργοποίηση ασταθών δυνατοτήτων"
 
-#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
-#: src/client/MainWindow.py:88
+#: src/data/MainWindow.ui:789
+msgid "Enable all USB ACPI wakeups"
+msgstr "Ενεργοποιήστε όλες τις αφυπνίσεις USB ACPI"
+
+#: src/data/MainWindow.ui:825
+msgid "Prefered ACPI osi:"
+msgstr "Προτιμώμενο ACPI osi:"
+
+#: src/data/MainWindow.ui:878
+msgid "Changes are being applied. Please wait."
+msgstr "Οι αλλαγές εφαρμόζονται. Παρακαλώ περιμένετε."
+
+#: src/data/MainWindow.ui:904
+msgid "wait"
+msgstr "περίμενε"
+
+#: src/data/MainWindow.ui:964 src/client/MainWindow.py:86
+#: src/client/MainWindow.py:89
 msgid "Mauna Power Manager"
 msgstr "Διαχειριστής ενέργειας Mauna"
 
-#: src/data/MainWindow.ui:928
+#: src/data/MainWindow.ui:1041
 msgid "About"
 msgstr "Για"
 
-#: src/data/MainWindow.ui:972
+#: src/data/MainWindow.ui:1085
 msgid "Advanced Settings"
 msgstr "Προηγμένες ρυθμίσεις"
 
-#: src/data/MainWindow.ui:1016
+#: src/data/MainWindow.ui:1129
 msgid "Main Page"
 msgstr "Κεντρική Σελίδα"
 
-#: src/data/MainWindow.ui:1070
+#: src/data/MainWindow.ui:1183
 msgid "Your device does not have a linux acpi table ."
 msgstr "Η συσκευή σας δεν διαθέτει πίνακα acpi linux."
 
-#: src/data/MainWindow.ui:1107
+#: src/data/MainWindow.ui:1220
 msgid "Your device does not require power management."
 msgstr "Η συσκευή σας δεν απαιτεί διαχείριση ενέργειας."
 
-#: src/data/MainWindow.ui:1144
+#: src/data/MainWindow.ui:1257
 msgid "Your battery is dead."
 msgstr "Η μπαταρία σας έχει τελειώσει."
 
-#: src/data/MainWindow.ui:1181
+#: src/data/MainWindow.ui:1294
 msgid "Your device does not support S3 state sleep."
 msgstr "Η συσκευή σας δεν υποστηρίζει κατάσταση ύπνου S3."
 
-#: src/data/MainWindow.ui:1218
+#: src/data/MainWindow.ui:1331
 msgid "You are using virtual machine."
 msgstr "Χρησιμοποιείτε εικονική μηχανή."
 
-#: src/data/MainWindow.ui:1255
+#: src/data/MainWindow.ui:1368
 msgid "Windows OEM detected."
 msgstr "Εντοπίστηκε OEM των Windows."
 
-#: src/data/MainWindow.ui:1292
+#: src/data/MainWindow.ui:1405
 msgid "Power management may not works good."
 msgstr "Η διαχείριση ενέργειας μπορεί να μην λειτουργεί καλά."
 
-#: src/data/MainWindow.ui:1318
+#: src/data/MainWindow.ui:1431
 msgid "Power manager"
 msgstr "Διαχειριστής ενέργειας"
 
-#: src/data/MainWindow.ui:1320
+#: src/data/MainWindow.ui:1433
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -165,47 +181,51 @@ msgstr "ισορροπημένη"
 msgid "performance"
 msgstr "εκτέλεση"
 
-#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
-#: src/client/MainWindow.py:383
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:414
+#: src/client/MainWindow.py:425
 msgid "Show"
 msgstr "Επίδειξη"
 
-#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+#: src/client/MainWindow.py:72 src/client/MainWindow.py:420
 msgid "Hide"
 msgstr "Κρύβω"
 
-#: src/client/MainWindow.py:79
+#: src/client/MainWindow.py:80
 msgid "Exit"
 msgstr "Εξοδος"
 
-#: src/client/MainWindow.py:92
+#: src/client/MainWindow.py:93
 msgid "About Mauna Power Manager"
 msgstr "Σχετικά με το Διαχειριστής ενέργειας Mauna"
 
-#: src/client/MainWindow.py:183
+#: src/client/MainWindow.py:188
 msgid "Performance"
 msgstr "Εκτέλεση"
 
-#: src/client/MainWindow.py:184
+#: src/client/MainWindow.py:189
 msgid "Balanced"
 msgstr "Ισορροπημένο"
 
-#: src/client/MainWindow.py:185
+#: src/client/MainWindow.py:190
 msgid "Powersave"
 msgstr "Εξοικονόμηση ενέργειας"
 
-#: src/client/MainWindow.py:186
+#: src/client/MainWindow.py:191
 msgid "Do Noting"
 msgstr "Μην κάνετε τίποτα"
 
-#: src/client/MainWindow.py:226
+#: src/client/MainWindow.py:203
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: src/client/MainWindow.py:254
 msgid "Power profile changed: "
 msgstr "Το προφίλ ισχύος άλλαξε: "
 
-#: src/client/MainWindow.py:229
+#: src/client/MainWindow.py:257
 msgid "Disable Powersave"
 msgstr "Απενεργοποιήστε την Εξοικονόμηση ενέργειας"
 
-#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+#: src/client/MainWindow.py:260 src/client/MainWindow.py:263
 msgid "Enable Powersave"
 msgstr "Ενεργοποιήστε την Εξοικονόμηση ενέργειας"

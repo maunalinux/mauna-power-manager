@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 17:18-0300\n"
-"PO-Revision-Date: 2025-03-02 16:17-0300\n"
+"POT-Creation-Date: 2025-10-20 21:29-0300\n"
+"PO-Revision-Date: 2025-10-21 08:53-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -93,56 +93,72 @@ msgstr "Verwalten der Stromversorgung für das Netzwerk"
 msgid "Enable Unstable Features"
 msgstr "Instabile Funktionen aktivieren"
 
-#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
-#: src/client/MainWindow.py:88
+#: src/data/MainWindow.ui:789
+msgid "Enable all USB ACPI wakeups"
+msgstr "Alle USB-ACPI-Weckfunktionen aktivieren"
+
+#: src/data/MainWindow.ui:825
+msgid "Prefered ACPI osi:"
+msgstr "Bevorzugte ACPI-osi:"
+
+#: src/data/MainWindow.ui:878
+msgid "Changes are being applied. Please wait."
+msgstr "Änderungen werden angewendet. Bitte warten Sie."
+
+#: src/data/MainWindow.ui:904
+msgid "wait"
+msgstr "warten"
+
+#: src/data/MainWindow.ui:964 src/client/MainWindow.py:86
+#: src/client/MainWindow.py:89
 msgid "Mauna Power Manager"
 msgstr "Mauna Energiemanager"
 
-#: src/data/MainWindow.ui:928
+#: src/data/MainWindow.ui:1041
 msgid "About"
 msgstr "Um"
 
-#: src/data/MainWindow.ui:972
+#: src/data/MainWindow.ui:1085
 msgid "Advanced Settings"
 msgstr "Erweiterte Einstellungen"
 
-#: src/data/MainWindow.ui:1016
+#: src/data/MainWindow.ui:1129
 msgid "Main Page"
 msgstr "Hauptseite"
 
-#: src/data/MainWindow.ui:1070
+#: src/data/MainWindow.ui:1183
 msgid "Your device does not have a linux acpi table ."
 msgstr "Ihr Gerät verfügt nicht über eine Linux-ACPI-Tabelle."
 
-#: src/data/MainWindow.ui:1107
+#: src/data/MainWindow.ui:1220
 msgid "Your device does not require power management."
 msgstr "Ihr Gerät benötigt kein Energiemanagement."
 
-#: src/data/MainWindow.ui:1144
+#: src/data/MainWindow.ui:1257
 msgid "Your battery is dead."
 msgstr "Ihre Batterie ist leer."
 
-#: src/data/MainWindow.ui:1181
+#: src/data/MainWindow.ui:1294
 msgid "Your device does not support S3 state sleep."
 msgstr "Ihr Gerät unterstützt den Ruhezustand S3 nicht."
 
-#: src/data/MainWindow.ui:1218
+#: src/data/MainWindow.ui:1331
 msgid "You are using virtual machine."
 msgstr "Sie verwenden eine virtuelle Maschine."
 
-#: src/data/MainWindow.ui:1255
+#: src/data/MainWindow.ui:1368
 msgid "Windows OEM detected."
 msgstr "Windows OEM erkannt."
 
-#: src/data/MainWindow.ui:1292
+#: src/data/MainWindow.ui:1405
 msgid "Power management may not works good."
 msgstr "Die Energieverwaltung funktioniert möglicherweise nicht richtig."
 
-#: src/data/MainWindow.ui:1318
+#: src/data/MainWindow.ui:1431
 msgid "Power manager"
 msgstr "Energiemanager"
 
-#: src/data/MainWindow.ui:1320
+#: src/data/MainWindow.ui:1433
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -164,48 +180,52 @@ msgstr "ausgewogen"
 msgid "performance"
 msgstr "leistung"
 
-#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
-#: src/client/MainWindow.py:383
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:414
+#: src/client/MainWindow.py:425
 msgid "Show"
 msgstr "Zeigen"
 
-#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+#: src/client/MainWindow.py:72 src/client/MainWindow.py:420
 msgid "Hide"
 msgstr "Verstecken"
 
-#: src/client/MainWindow.py:79
+#: src/client/MainWindow.py:80
 msgid "Exit"
 msgstr "Ausfahrt"
 
-#: src/client/MainWindow.py:92
+#: src/client/MainWindow.py:93
 msgid "About Mauna Power Manager"
 msgstr "Über Mauna Energiemanager"
 
-#: src/client/MainWindow.py:183
+#: src/client/MainWindow.py:188
 msgid "Performance"
 msgstr "Leistung"
 
-#: src/client/MainWindow.py:184
+#: src/client/MainWindow.py:189
 msgid "Balanced"
 msgstr "Ausgewogen"
 
-#: src/client/MainWindow.py:185
+#: src/client/MainWindow.py:190
 msgid "Powersave"
 msgstr "Energiespar"
 
-#: src/client/MainWindow.py:186
+#: src/client/MainWindow.py:191
 msgid "Do Noting"
 msgstr "Nichts tun"
 
-#: src/client/MainWindow.py:226
+#: src/client/MainWindow.py:203
+msgid "Default"
+msgstr "Standard"
+
+#: src/client/MainWindow.py:254
 msgid "Power profile changed: "
 msgstr "Leistungsprofil geändert: "
 
-#: src/client/MainWindow.py:229
+#: src/client/MainWindow.py:257
 msgid "Disable Powersave"
 msgstr "Deaktivieren Sie den Energiesparmodus"
 
-#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+#: src/client/MainWindow.py:260 src/client/MainWindow.py:263
 msgid "Enable Powersave"
 msgstr "Aktivieren Sie den Energiesparmodus"
 

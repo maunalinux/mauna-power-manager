@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 17:18-0300\n"
-"PO-Revision-Date: 2025-03-02 16:42-0300\n"
+"POT-Creation-Date: 2025-10-20 21:29-0300\n"
+"PO-Revision-Date: 2025-10-21 09:25-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -93,56 +93,72 @@ msgstr "ネットワークの電源を管理する"
 msgid "Enable Unstable Features"
 msgstr "不安定な機能を有効にする"
 
-#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
-#: src/client/MainWindow.py:88
+#: src/data/MainWindow.ui:789
+msgid "Enable all USB ACPI wakeups"
+msgstr "すべてのUSB ACPIウェイクアップを有効にする"
+
+#: src/data/MainWindow.ui:825
+msgid "Prefered ACPI osi:"
+msgstr "優先される ACPI Osi:"
+
+#: src/data/MainWindow.ui:878
+msgid "Changes are being applied. Please wait."
+msgstr "変更が適用されています。しばらくお待ちください。"
+
+#: src/data/MainWindow.ui:904
+msgid "wait"
+msgstr "待って"
+
+#: src/data/MainWindow.ui:964 src/client/MainWindow.py:86
+#: src/client/MainWindow.py:89
 msgid "Mauna Power Manager"
 msgstr "マウナパワーマネージャー"
 
-#: src/data/MainWindow.ui:928
+#: src/data/MainWindow.ui:1041
 msgid "About"
 msgstr "について"
 
-#: src/data/MainWindow.ui:972
+#: src/data/MainWindow.ui:1085
 msgid "Advanced Settings"
 msgstr "詳細設定"
 
-#: src/data/MainWindow.ui:1016
+#: src/data/MainWindow.ui:1129
 msgid "Main Page"
 msgstr "メインページ"
 
-#: src/data/MainWindow.ui:1070
+#: src/data/MainWindow.ui:1183
 msgid "Your device does not have a linux acpi table ."
 msgstr "デバイスには Linux acpi テーブルがありません。"
 
-#: src/data/MainWindow.ui:1107
+#: src/data/MainWindow.ui:1220
 msgid "Your device does not require power management."
 msgstr "デバイスには電源管理は必要ありません。"
 
-#: src/data/MainWindow.ui:1144
+#: src/data/MainWindow.ui:1257
 msgid "Your battery is dead."
 msgstr "バッテリーが切れました。"
 
-#: src/data/MainWindow.ui:1181
+#: src/data/MainWindow.ui:1294
 msgid "Your device does not support S3 state sleep."
 msgstr "お使いのデバイスは S3 状態のスリープをサポートしていません。"
 
-#: src/data/MainWindow.ui:1218
+#: src/data/MainWindow.ui:1331
 msgid "You are using virtual machine."
 msgstr "仮想マシンを使用しています。"
 
-#: src/data/MainWindow.ui:1255
+#: src/data/MainWindow.ui:1368
 msgid "Windows OEM detected."
 msgstr "Windows OEMが検出されました。"
 
-#: src/data/MainWindow.ui:1292
+#: src/data/MainWindow.ui:1405
 msgid "Power management may not works good."
 msgstr "電源管理がうまく機能しない可能性があります。"
 
-#: src/data/MainWindow.ui:1318
+#: src/data/MainWindow.ui:1431
 msgid "Power manager"
 msgstr "パワーマネージャー"
 
-#: src/data/MainWindow.ui:1320
+#: src/data/MainWindow.ui:1433
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -164,48 +180,52 @@ msgstr "バランスのとれた"
 msgid "performance"
 msgstr "パフォーマンス"
 
-#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
-#: src/client/MainWindow.py:383
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:414
+#: src/client/MainWindow.py:425
 msgid "Show"
 msgstr "見せる"
 
-#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+#: src/client/MainWindow.py:72 src/client/MainWindow.py:420
 msgid "Hide"
 msgstr "隠れる"
 
-#: src/client/MainWindow.py:79
+#: src/client/MainWindow.py:80
 msgid "Exit"
 msgstr "出口"
 
-#: src/client/MainWindow.py:92
+#: src/client/MainWindow.py:93
 msgid "About Mauna Power Manager"
 msgstr "マウナパワーマネージャーについて"
 
-#: src/client/MainWindow.py:183
+#: src/client/MainWindow.py:188
 msgid "Performance"
 msgstr "パフォーマンス"
 
-#: src/client/MainWindow.py:184
+#: src/client/MainWindow.py:189
 msgid "Balanced"
 msgstr "バランスのとれた"
 
-#: src/client/MainWindow.py:185
+#: src/client/MainWindow.py:190
 msgid "Powersave"
 msgstr "省電力"
 
-#: src/client/MainWindow.py:186
+#: src/client/MainWindow.py:191
 msgid "Do Noting"
 msgstr "何もしない"
 
-#: src/client/MainWindow.py:226
+#: src/client/MainWindow.py:203
+msgid "Default"
+msgstr "デフォルト"
+
+#: src/client/MainWindow.py:254
 msgid "Power profile changed: "
 msgstr "電力プロファイルが変更されました: "
 
-#: src/client/MainWindow.py:229
+#: src/client/MainWindow.py:257
 msgid "Disable Powersave"
 msgstr "省電力を無効にする"
 
-#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+#: src/client/MainWindow.py:260 src/client/MainWindow.py:263
 msgid "Enable Powersave"
 msgstr "省電力を有効にする"
 

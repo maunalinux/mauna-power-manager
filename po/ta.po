@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 17:18-0300\n"
-"PO-Revision-Date: 2025-03-02 17:01-0300\n"
+"POT-Creation-Date: 2025-10-20 21:29-0300\n"
+"PO-Revision-Date: 2025-10-21 09:36-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ta\n"
@@ -94,56 +94,72 @@ msgstr "நெட்வொர்க்கிற்கான சக்திய�
 msgid "Enable Unstable Features"
 msgstr "நிலையற்ற அம்சங்களை இயக்கு"
 
-#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
-#: src/client/MainWindow.py:88
+#: src/data/MainWindow.ui:789
+msgid "Enable all USB ACPI wakeups"
+msgstr "அனைத்துப் USB ACPI எழுச்சி முறைகளையும் இயக்கு"
+
+#: src/data/MainWindow.ui:825
+msgid "Prefered ACPI osi:"
+msgstr "முன்னுரிமைக் கொண்ட ACPI osi:"
+
+#: src/data/MainWindow.ui:878
+msgid "Changes are being applied. Please wait."
+msgstr "மாற்றங்கள் நடைமுறைப்படுத்தப்பட்டு வருகிறார். தயவுசெய்து காத்திருங்கள்."
+
+#: src/data/MainWindow.ui:904
+msgid "wait"
+msgstr "காத்திரு"
+
+#: src/data/MainWindow.ui:964 src/client/MainWindow.py:86
+#: src/client/MainWindow.py:89
 msgid "Mauna Power Manager"
 msgstr "மௌனா பவர் மேனேஜர்"
 
-#: src/data/MainWindow.ui:928
+#: src/data/MainWindow.ui:1041
 msgid "About"
 msgstr "பற்றி"
 
-#: src/data/MainWindow.ui:972
+#: src/data/MainWindow.ui:1085
 msgid "Advanced Settings"
 msgstr "மேம்பட்ட அமைப்புகள்"
 
-#: src/data/MainWindow.ui:1016
+#: src/data/MainWindow.ui:1129
 msgid "Main Page"
 msgstr "முதன்மைப் பக்கம்"
 
-#: src/data/MainWindow.ui:1070
+#: src/data/MainWindow.ui:1183
 msgid "Your device does not have a linux acpi table ."
 msgstr "உங்கள் சாதனத்தில் linux acpi அட்டவணை இல்லை ."
 
-#: src/data/MainWindow.ui:1107
+#: src/data/MainWindow.ui:1220
 msgid "Your device does not require power management."
 msgstr "உங்கள் சாதனத்திற்கு ஆற்றல் மேலாண்மை தேவையில்லை."
 
-#: src/data/MainWindow.ui:1144
+#: src/data/MainWindow.ui:1257
 msgid "Your battery is dead."
 msgstr "உங்கள் பேட்டரி இறந்துவிட்டது."
 
-#: src/data/MainWindow.ui:1181
+#: src/data/MainWindow.ui:1294
 msgid "Your device does not support S3 state sleep."
 msgstr "உங்கள் சாதனம் S3 நிலை தூக்கத்தை ஆதரிக்காது."
 
-#: src/data/MainWindow.ui:1218
+#: src/data/MainWindow.ui:1331
 msgid "You are using virtual machine."
 msgstr "நீங்கள் மெய்நிகர் இயந்திரத்தைப் பயன்படுத்துகிறீர்கள்."
 
-#: src/data/MainWindow.ui:1255
+#: src/data/MainWindow.ui:1368
 msgid "Windows OEM detected."
 msgstr "Windows OEM கண்டறியப்பட்டது."
 
-#: src/data/MainWindow.ui:1292
+#: src/data/MainWindow.ui:1405
 msgid "Power management may not works good."
 msgstr "பவர் மேனேஜ்மென்ட் சரியாக வேலை செய்யாமல் போகலாம்."
 
-#: src/data/MainWindow.ui:1318
+#: src/data/MainWindow.ui:1431
 msgid "Power manager"
 msgstr "சக்தி மேலாளர்"
 
-#: src/data/MainWindow.ui:1320
+#: src/data/MainWindow.ui:1433
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -165,48 +181,52 @@ msgstr "சமநிலையான"
 msgid "performance"
 msgstr "செயல்திறன்"
 
-#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
-#: src/client/MainWindow.py:383
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:414
+#: src/client/MainWindow.py:425
 msgid "Show"
 msgstr "காட்டு"
 
-#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+#: src/client/MainWindow.py:72 src/client/MainWindow.py:420
 msgid "Hide"
 msgstr "மறை"
 
-#: src/client/MainWindow.py:79
+#: src/client/MainWindow.py:80
 msgid "Exit"
 msgstr "வெளியேறு"
 
-#: src/client/MainWindow.py:92
+#: src/client/MainWindow.py:93
 msgid "About Mauna Power Manager"
 msgstr "மௌனா பவர் மேனேஜர் பற்றி"
 
-#: src/client/MainWindow.py:183
+#: src/client/MainWindow.py:188
 msgid "Performance"
 msgstr "செயல்திறன்"
 
-#: src/client/MainWindow.py:184
+#: src/client/MainWindow.py:189
 msgid "Balanced"
 msgstr "சமச்சீர்"
 
-#: src/client/MainWindow.py:185
+#: src/client/MainWindow.py:190
 msgid "Powersave"
 msgstr "பவர்சேவ்"
 
-#: src/client/MainWindow.py:186
+#: src/client/MainWindow.py:191
 msgid "Do Noting"
 msgstr "எதுவும் செய்யாதே"
 
-#: src/client/MainWindow.py:226
+#: src/client/MainWindow.py:203
+msgid "Default"
+msgstr "முன்னிருப்பு"
+
+#: src/client/MainWindow.py:254
 msgid "Power profile changed: "
 msgstr "பவர் சுயவிவரம் மாற்றப்பட்டது: "
 
-#: src/client/MainWindow.py:229
+#: src/client/MainWindow.py:257
 msgid "Disable Powersave"
 msgstr "பவர்சேவை முடக்கு"
 
-#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+#: src/client/MainWindow.py:260 src/client/MainWindow.py:263
 msgid "Enable Powersave"
 msgstr "பவர்சேவை இயக்கு"
 

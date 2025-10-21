@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 17:18-0300\n"
-"PO-Revision-Date: 2025-03-02 18:22-0300\n"
+"POT-Creation-Date: 2025-10-20 21:29-0300\n"
+"PO-Revision-Date: 2025-10-21 09:40-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -93,56 +93,72 @@ msgstr "管理网络电源"
 msgid "Enable Unstable Features"
 msgstr "启用不稳定的功能"
 
-#: src/data/MainWindow.ui:851 src/client/MainWindow.py:85
-#: src/client/MainWindow.py:88
+#: src/data/MainWindow.ui:789
+msgid "Enable all USB ACPI wakeups"
+msgstr "启用所有 USB ACPI 唤醒"
+
+#: src/data/MainWindow.ui:825
+msgid "Prefered ACPI osi:"
+msgstr "首选 ACPI osi:"
+
+#: src/data/MainWindow.ui:878
+msgid "Changes are being applied. Please wait."
+msgstr "正在应用更改。请稍候。"
+
+#: src/data/MainWindow.ui:904
+msgid "wait"
+msgstr "等"
+
+#: src/data/MainWindow.ui:964 src/client/MainWindow.py:86
+#: src/client/MainWindow.py:89
 msgid "Mauna Power Manager"
 msgstr "莫纳电源管理器"
 
-#: src/data/MainWindow.ui:928
+#: src/data/MainWindow.ui:1041
 msgid "About"
 msgstr "关于"
 
-#: src/data/MainWindow.ui:972
+#: src/data/MainWindow.ui:1085
 msgid "Advanced Settings"
 msgstr "高级设置"
 
-#: src/data/MainWindow.ui:1016
+#: src/data/MainWindow.ui:1129
 msgid "Main Page"
 msgstr "主页"
 
-#: src/data/MainWindow.ui:1070
+#: src/data/MainWindow.ui:1183
 msgid "Your device does not have a linux acpi table ."
 msgstr "您的设备没有 Linux acpi 表。"
 
-#: src/data/MainWindow.ui:1107
+#: src/data/MainWindow.ui:1220
 msgid "Your device does not require power management."
 msgstr "您的设备不需要电源管理。"
 
-#: src/data/MainWindow.ui:1144
+#: src/data/MainWindow.ui:1257
 msgid "Your battery is dead."
 msgstr "你的电池没电了。"
 
-#: src/data/MainWindow.ui:1181
+#: src/data/MainWindow.ui:1294
 msgid "Your device does not support S3 state sleep."
 msgstr "您的设备不支持 S3 状态睡眠。"
 
-#: src/data/MainWindow.ui:1218
+#: src/data/MainWindow.ui:1331
 msgid "You are using virtual machine."
 msgstr "您正在使用虚拟机。"
 
-#: src/data/MainWindow.ui:1255
+#: src/data/MainWindow.ui:1368
 msgid "Windows OEM detected."
 msgstr "检测到 Windows OEM。"
 
-#: src/data/MainWindow.ui:1292
+#: src/data/MainWindow.ui:1405
 msgid "Power management may not works good."
 msgstr "电源管理可能不太好用。"
 
-#: src/data/MainWindow.ui:1318
+#: src/data/MainWindow.ui:1431
 msgid "Power manager"
 msgstr "电源管理器"
 
-#: src/data/MainWindow.ui:1320
+#: src/data/MainWindow.ui:1433
 msgid ""
 "This program comes with absolutely no warranty.\n"
 "See the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General "
@@ -164,48 +180,52 @@ msgstr "均衡"
 msgid "performance"
 msgstr "表现"
 
-#: src/client/MainWindow.py:69 src/client/MainWindow.py:372
-#: src/client/MainWindow.py:383
+#: src/client/MainWindow.py:70 src/client/MainWindow.py:414
+#: src/client/MainWindow.py:425
 msgid "Show"
 msgstr "展示"
 
-#: src/client/MainWindow.py:71 src/client/MainWindow.py:378
+#: src/client/MainWindow.py:72 src/client/MainWindow.py:420
 msgid "Hide"
 msgstr "隐藏"
 
-#: src/client/MainWindow.py:79
+#: src/client/MainWindow.py:80
 msgid "Exit"
 msgstr "出口"
 
-#: src/client/MainWindow.py:92
+#: src/client/MainWindow.py:93
 msgid "About Mauna Power Manager"
 msgstr "关于莫纳电源管理器"
 
-#: src/client/MainWindow.py:183
+#: src/client/MainWindow.py:188
 msgid "Performance"
 msgstr "表现"
 
-#: src/client/MainWindow.py:184
+#: src/client/MainWindow.py:189
 msgid "Balanced"
 msgstr "均衡"
 
-#: src/client/MainWindow.py:185
+#: src/client/MainWindow.py:190
 msgid "Powersave"
 msgstr "节能"
 
-#: src/client/MainWindow.py:186
+#: src/client/MainWindow.py:191
 msgid "Do Noting"
 msgstr "没做什么"
 
-#: src/client/MainWindow.py:226
+#: src/client/MainWindow.py:203
+msgid "Default"
+msgstr "默认"
+
+#: src/client/MainWindow.py:254
 msgid "Power profile changed: "
 msgstr "电源配置文件已更改："
 
-#: src/client/MainWindow.py:229
+#: src/client/MainWindow.py:257
 msgid "Disable Powersave"
 msgstr "禁用省电模式"
 
-#: src/client/MainWindow.py:232 src/client/MainWindow.py:235
+#: src/client/MainWindow.py:260 src/client/MainWindow.py:263
 msgid "Enable Powersave"
 msgstr "启用省电模式"
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD polkit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
+<policyconfig>
+
+  <vendor>Mauna Developers</vendor>
+  <vendor_url>https://maunalinux.top</vendor_url>
+
+  <action id="top.mauna.pkexec.mauna-power-manager">
+    <description>Mauna Power Manager Authentication</description>
+    <message>Authentication is required for Mauna Power Manager</message>
+    <message xml:lang="pt">A autenticação é necessária para o Gestor de Energia Mauna</message>
+    <message xml:lang="pt_BR">A autenticação é necessária para o Gerenciador de Energia do Mauna</message>
+    <message xml:lang="tr">Mauna Güç Yöneticisi için yetkilendirme gerekiyor</message>
+    <icon_name>preferences-system</icon_name>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/share/mauna/power-manager/service/actions.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>

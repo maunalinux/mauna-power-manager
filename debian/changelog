@@ -1,3 +1,23 @@
+mauna-power-manager (2.0.2) polaris; urgency=medium
+
+  * usb wakeups disabled by dfault
+  * acpi osi selection added
+  * save-config require root
+  * minor fixes
+  * apply wait ui
+  * l10n: Update POT
+  * l10n: Update translations
+  * d/control: update standards-version
+
+ -- Mauna Linux <dev@maunalinux.top>  Mon, 27 Oct 2025 15:06:15 -0300
+
+mauna-power-manager (2.0.1) polaris; urgency=medium
+
+  * New upstream release
+  * New version for Mauna 25 Polaris
+
+ -- Mauna Linux <dev@maunalinux.top>  Sun, 01 Jun 2025 21:58:11 +0000
+
 mauna-power-manager (2.0.0) mauna; urgency=medium
 
   * New upstream release
